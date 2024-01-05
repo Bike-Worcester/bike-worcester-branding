@@ -1,0 +1,15 @@
+{
+  "name": "bike-worcester-branding",
+  "version": "1.0.0",
+  "description": "A collection of brand guidelines and resources for Bike Worcester and its associated projects.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bike-Worcester/bike-worcester-branding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bike-Worcester/bike-worcester-branding/issues"
+  },
+  "homepage": "https://github.com/Bike-Worcester/bike-worcester-branding#readme"
+}
