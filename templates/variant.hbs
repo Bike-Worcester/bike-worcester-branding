@@ -1,0 +1,29 @@
+## Bike Worcester branding assets
+
+[< Back to asset list](./index.md)
+
+---
+
+### {{name}}
+
+{{#each variants}}
+#### {{name}}
+{{description}}
+
+| Preview | Formats |
+| ![{{name}}](../assets/{{../dir}}/{{../dir}}-{{../thumbnail}}-256.png) | {{#each sizes}}[{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-{{this}}.png) &bull; {{/each}}{{#with scalable}}[Scalable SVG](../assets/{{../dir}}/{{../dir}}-{{file}}.svg){{/with}} |
+{{#with mono}}
+{{#each colours}}
+  | ![{{../name}} {{this}}](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-{{this}}-256.png) | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-{{../this}}-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../../file}}-{{../this}}.svg){{/with}} |
+{{/each}}
+| ![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-black-256.png) | {{#each sizes}}[{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-black-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-black.svg){{/with}} |
+| ![{{../name}} white](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-white-256.png) | {{#each sizes}}[{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-white-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-white.svg){{/with}} |
+{{/with}}
+
+{{/each}}
+
+#### Colours
+
+|{{#each colours}} <div style="width: 64px; height: 64px; background-color: #{{this}};"></div> | {{/each}}
+|{{#each colours}} #{{this}} | {{/each}}
+
