@@ -1,11 +1,11 @@
 {
   "name": "bike-worcester-branding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of brand guidelines and resources for Bike Worcester and its associated projects.",
   "scripts": {
     "docs": "plop --plopfile ./plopfile.js docs",
     "generate": "node ./scripts/build.mjs",
-    "build": "npm run docs && npm run generate"
+    "build": "pnpm run docs && pnpm run generate"
   },
   "repository": {
     "type": "git",
@@ -18,14 +18,13 @@
   },
   "homepage": "https://github.com/Bike-Worcester/bike-worcester-branding#readme",
   "dependencies": {
-    "colors": "^1.4.0",
     "inkscape": "^3.1.1",
     "plop": "^4.0.1",
-    "sharp": "^0.33.1",
     "svgo": "^3.2.0"
   },
   "devDependencies": {
-    "prettier": "^3.1.1"
+    "prettier": "^3.1.1",
+    "colors": "^1.4.0"
   },
   "prettier": {
     "printWidth": 80,
