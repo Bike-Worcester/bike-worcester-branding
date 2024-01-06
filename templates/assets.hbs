@@ -15,10 +15,12 @@
 {{/each}}
 {{#with mono}}
 {{#each ../colours}}
+---
+## {{this}}
 {{#each ../../sizes}}
 ### {{this}}w
 
-![{{../this}} {{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../../file}}-{{../this}}-{{this}}.png)
+![{{../this}} {{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../../file}}-{{../this}}mono--{{this}}.png)
 
 {{/each}}
 {{/each}}
