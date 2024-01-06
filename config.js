@@ -30,11 +30,24 @@ module.exports = {
         description:
           'Smaller sized logo where ledgibility is difficult (website favicons, for example), or if logo appears near to "Bike Worcester" text.',
       },
+      {
+        file: 'thumbnail',
+        name: 'Thumbnail',
+        sizes: [1200],
+        description: 'Thumbnail for social sharing and website/blog use',
+      },
     ],
     colours: [
       // Colours used in, and complimentary to, the logo (in order of priority, without # prefix)
       '3E5062',
       '81CA9F',
+    ],
+    typography: [
+      {
+        name: 'Logo',
+        font: 'Jost Extra Bold',
+        link: 'https://fonts.google.com/specimen/Jost',
+      },
     ],
   },
 };

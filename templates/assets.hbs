@@ -1,0 +1,25 @@
+# Bike Worcester branding
+
+[< Back to {{parentName}} resources](./{{dir}}.md)
+
+---
+
+## {{name}} images
+{{description}}
+
+{{#each sizes}}
+### {{this}}w
+
+![{{this}}w](../assets/{{../dir}}/{{../dir}}-{{../file}}-{{this}}.png)
+
+{{/each}}
+{{#with mono}}
+{{#each ../colours}}
+{{#each ../../sizes}}
+### {{this}}w
+
+![{{../this}} {{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../../file}}-{{../this}}-{{this}}.png)
+
+{{/each}}
+{{/each}}
+{{/with}}

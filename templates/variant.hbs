@@ -1,10 +1,10 @@
-# Bike Worcester branding assets
+# Bike Worcester branding
 
 [< Back to asset list](./index.md)
 
 ---
 
-## {{name}}
+## {{name}} resources
 
 {{#each variants}}
 ### {{name}}
@@ -12,13 +12,13 @@
 
 | Preview | Formats |
 | ------- | ------- |
-| [![{{name}}](../assets/{{../dir}}/{{../dir}}-{{file}}-256.png)]() | {{#each sizes}}[{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-{{this}}.png) &bull; {{/each}}{{#with scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}.svg){{/with}} |
+| [![{{name}}](../assets/{{../dir}}/{{../dir}}-{{file}}-256.png)]({{../dir}}-{{file}}) | {{#each sizes}}[{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-{{this}}.png) &bull; {{/each}}{{#with scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}.svg){{/with}} |
 {{#with mono}}
 {{#each ../../colours}}
-  | [![{{../name}} {{this}}](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-{{this}}-256.png)]() | {{#each ../../sizes}}[{{this}}w](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}-{{this}}.png) &bull; {{/each}}{{#with ../../scalable}}[Scalable SVG](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}.svg){{/with}} |
+  | [![{{../name}} {{this}}](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-{{this}}-256.png)]({{../dir}}-{{file}}#this) | {{#each ../../sizes}}[{{this}}w](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}-{{this}}.png) &bull; {{/each}}{{#with ../../scalable}}[Scalable SVG](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}.svg){{/with}} |
 {{/each}}
-| [![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000-256.png)]() | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-000000-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000.svg){{/with}} |
-| [![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff-256.png)]() | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-ffffff-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff.svg){{/with}} |
+| [![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000-256.png)]({{../../dir}}-{{../file}}#000000) | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-000000-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000.svg){{/with}} |
+| [![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff-256.png)]({{../../dir}}-{{../file}}#ffffff) | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-ffffff-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff.svg){{/with}} |
 {{/with}}
 
 {{/each}}
@@ -29,3 +29,12 @@
 |{{#each colours}} --- | {{/each}}
 |{{#each colours}} [![#{{this}} swatch](../assets/{{../dir}}/swatch-{{this}}.png)]() | {{/each}}
 
+{{#with typography}}
+### Typography
+
+| Use | Name | Link |
+| --- | --- | --- |
+{{#each typography}}
+| {{name}} | {{font}} | [Link]({{link}}) |
+{{/each}}
+{{/with}}

@@ -9,19 +9,35 @@ module.exports = function (plop) {
         ([arr, index], dir) => {
           const name = config[dir].name;
           const thumbnail = config[dir].thumbnail;
-          arr.push({
-            type: 'add',
-            path: `docs/${dir}.md`,
-            templateFile: 'templates/variant.hbs',
-            force: true,
-            data: {
-              dir,
-              name,
-              thumbnail,
-              variants: config[dir].variants,
-              colours: config[dir].colours,
+          const typography = config[dir].typography;
+          arr.push(
+            {
+              type: 'add',
+              path: `docs/${dir}.md`,
+              templateFile: 'templates/variant.hbs',
+              force: true,
+              data: {
+                dir,
+                name,
+                thumbnail,
+                variants: config[dir].variants,
+                colours: config[dir].colours,
+                typography,
+              },
             },
-          });
+            ...config[dir].variants.map((props) => ({
+              type: 'add',
+              path: `docs/${dir}-${props.file}.md`,
+              templateFile: 'templates/assets.hbs',
+              force: true,
+              data: {
+                ...props,
+                dir,
+                parentName: name,
+                colours: config[dir].colours,
+              },
+            })),
+          );
           index.push({
             name,
             dir,
