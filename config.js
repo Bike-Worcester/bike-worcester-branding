@@ -28,7 +28,7 @@ module.exports = {
         name: 'Badge',
         sizes: [16, 32, 64, 512],
         description:
-          'Smaller sized logo where ledgibility is difficult (website favicons, for example) or it appears next to "Bike Worcester" text and higher impact is required.',
+          'Smaller sized logo where ledgibility is difficult (website favicons, for example), or if logo appears near to "Bike Worcester" text.',
       },
     ],
     colours: [
