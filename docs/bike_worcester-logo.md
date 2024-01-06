@@ -1,13 +1,13 @@
-## Bike Worcester branding assets
+# Bike Worcester branding assets
 
 [< Back to asset list](./index.md)
 
 ---
 
-### Bike Worcester logo
+## Bike Worcester logo
 
-#### Square
-Square logo for general use (for smaller sized icons use Badge.
+### Square
+Square logo for general use (for smaller sized icons use Badge).
 
 | Preview | Formats |
 | ------- | ------- |
@@ -17,7 +17,7 @@ Square logo for general use (for smaller sized icons use Badge.
 | ![Square black](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-000000-256.png) | [512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-000000-512.png) &bull; [1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-000000-1024.png) &bull; [2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-000000-2048.png) &bull; [Scalable SVG](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-000000.svg) |
 | ![Square black](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-ffffff-256.png) | [512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-ffffff-512.png) &bull; [1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-ffffff-1024.png) &bull; [2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-ffffff-2048.png) &bull; [Scalable SVG](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-ffffff.svg) |
 
-#### Wide
+### Wide
 Wide logo for letterheads and headers.
 
 | Preview | Formats |
@@ -28,7 +28,7 @@ Wide logo for letterheads and headers.
 | ![Wide black](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-000000-256.png) | [512w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-000000-512.png) &bull; [1024w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-000000-1024.png) &bull; [2048w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-000000-2048.png) &bull; [Scalable SVG](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-000000.svg) |
 | ![Wide black](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-ffffff-256.png) | [512w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-ffffff-512.png) &bull; [1024w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-ffffff-1024.png) &bull; [2048w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-ffffff-2048.png) &bull; [Scalable SVG](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-ffffff.svg) |
 
-#### Badge
+### Badge
 Smaller sized logo where ledgibility is difficult (website favicons, for example) or it appears next to &quot;Bike Worcester&quot; text and higher impact is required.
 
 | Preview | Formats |
@@ -36,9 +36,9 @@ Smaller sized logo where ledgibility is difficult (website favicons, for example
 | ![Badge](../assets/bike_worcester-logo/bike_worcester-logo--256.png) | [16w](../assets/bike_worcester-logo/bike_worcester-logo-badge-16.png) &bull; [32w](../assets/bike_worcester-logo/bike_worcester-logo-badge-32.png) &bull; [64w](../assets/bike_worcester-logo/bike_worcester-logo-badge-64.png) &bull; [512w](../assets/bike_worcester-logo/bike_worcester-logo-badge-512.png) &bull;  |
 
 
-#### Colours
+### Colours
 
 | #3E5062 |  #81CA9F | 
 | --- |  --- | 
-| <p style="width: 96px; height: 96px; background-color: #3E5062;">&nbsp;</p> |  <p style="width: 96px; height: 96px; background-color: #81CA9F;">&nbsp;</p> | 
+| ![#3E5062 swatch](../assets/bike_worcester-logo/swatch-3E5062.png) |  ![#81CA9F swatch](../assets/bike_worcester-logo/swatch-81CA9F.png) | 
 

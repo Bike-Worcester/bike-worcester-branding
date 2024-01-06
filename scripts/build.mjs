@@ -61,6 +61,19 @@ const svgToString = async (src) => {
   return data;
 };
 
+const generateSwatch = async (dir, colour) => {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#${colour}" /></svg>`;
+  const swatchSrc = path.resolve(
+    baseDir,
+    'assets',
+    dir,
+    `swatch-${colour}.svg`,
+  );
+  await fs.writeFile(swatchSrc, svg);
+  await svgToPng(swatchSrc, swatchSrc.replace('.svg', '.png'), 100);
+  log(swatchSrc);
+};
+
 const convert = async ({
   dir,
   file,
@@ -151,9 +164,17 @@ await Object.keys(config).reduce(
           }),
         Promise.resolve(),
       );
+      await config[dir].colours.reduce(
+        (promise, colour) =>
+          promise.then(async () => {
+            await generateSwatch(dir, colour);
+          }),
+        Promise.resolve(),
+      );
     }),
   Promise.resolve(),
 );
+
 console.log();
 console.log(colors.cyan.bold(total), 'assets created');
 console.log();

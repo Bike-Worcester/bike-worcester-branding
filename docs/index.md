@@ -1,4 +1,4 @@
-## Bike Worcester branding assets
+# Bike Worcester branding assets
 
 Assets for use in publicity, print media, websites and social media. Visit each asset page to download your required image.
 

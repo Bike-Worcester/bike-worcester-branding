@@ -12,7 +12,7 @@ module.exports = {
         sizes: [512, 1024, 2048],
         scalable: true, // Produce a scalable vector version - this removes fixed sizes from svg file
         description:
-          'Square logo for general use (for smaller sized icons use Badge.',
+          'Square logo for general use (for smaller sized icons use Badge).',
         mono: true, // Produce a monochrome version of the logo (src must have a -mono.svg version available)
       },
       {
