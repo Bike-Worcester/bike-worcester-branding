@@ -102,10 +102,16 @@ const convert = async ({
       src = path.resolve(baseDir, 'src', dir, `${file}-mono.svg`);
       const str = await svgToString(src);
       // Optimise svg then change all occurances of black to each colour and save
-      await ['ffffff', '000000', ...colours].reduce(
+      const conversions = {
+        'rgba(0,0,0,0.89)': '000000',
+        'rgba(255,255,255,0.89)': 'ffffff',
+      };
+      await [...Object.keys(conversions), ...colours].reduce(
         (promise, colour) =>
           promise.then(async () => {
-            const outPath = `${dir}-${file}-mono-${colour}`;
+            const outPath = `${dir}-${file}-mono-${
+              conversions[colour] || colour
+            }`;
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
             await fs.writeFile(dest, str.replaceAll(/#000000/gi, `#${colour}`));
             log(dest);
