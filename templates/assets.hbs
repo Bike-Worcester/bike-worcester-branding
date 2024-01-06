@@ -20,8 +20,23 @@
 {{#each ../../sizes}}
 ### {{this}}w
 
-![{{../this}} {{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../../file}}-{{../this}}mono--{{this}}.png)
+![{{../this}} {{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../../file}}-{{../this}}-mono-{{this}}.png)
 
 {{/each}}
 {{/each}}
+---
+## Black
+{{#each ../sizes}}
+### {{this}}w
+
+![Black {{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../../file}}-000000--{{this}}.png)
+
+{{/each}}
+---
+## White
+{{#each ../sizes}}
+### {{this}}w
+
+![White {{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../../file}}-ffffff--{{this}}.png)
+
 {{/with}}
