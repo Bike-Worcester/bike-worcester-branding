@@ -30,7 +30,7 @@ Images will be saved to the `assets` directory and usage docs generated in the `
 
 ## Extending and editing
 
-The build process reads from the `config.mjs` file. Make changes there, then run `pnpm run build` to regenerate assets and docs.
+The build process reads from the `config.js` file. Make changes there, then run `pnpm run build` to regenerate assets and docs.
 
 When designing new artwork, follow these guidelines:
 
