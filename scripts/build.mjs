@@ -115,7 +115,10 @@ const convert = async ({
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
             await fs.writeFile(
               dest,
-              str.replaceAll(/#000000/gi, conversions[colour] || `#${colour}`),
+              str.replaceAll(
+                /#000000/gi,
+                conversions[colour] ? colour : `#${colour}`,
+              ),
             );
             log(dest);
             await sizes.reduce(
