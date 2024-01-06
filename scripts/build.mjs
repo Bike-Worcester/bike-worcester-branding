@@ -103,8 +103,9 @@ const convert = async ({
       const str = await svgToString(src);
       // Optimise svg then change all occurances of black to each colour and save
       const conversions = {
-        'rgba(0,0,0,0.89)': '000000',
-        'rgba(255,255,255,0.89)': 'ffffff',
+        '1c1c1c': '000000',
+        // prettier-ignore
+        'e3e3e3': 'ffffff',
       };
       await [...Object.keys(conversions), ...colours].reduce(
         (promise, colour) =>
@@ -113,13 +114,7 @@ const convert = async ({
               conversions[colour] || colour
             }`;
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
-            await fs.writeFile(
-              dest,
-              str.replaceAll(
-                /#000000/gi,
-                conversions[colour] ? colour : `#${colour}`,
-              ),
-            );
+            await fs.writeFile(dest, str.replaceAll(/#000000/gi, `#${colour}`));
             log(dest);
             await sizes.reduce(
               (_promise, size) =>
