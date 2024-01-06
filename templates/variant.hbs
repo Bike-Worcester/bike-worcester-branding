@@ -12,13 +12,13 @@
 
 | Preview | Formats |
 | ------- | ------- |
-| [![{{name}}](../assets/{{../dir}}/{{../dir}}-{{file}}-256.png)]({{../dir}}-{{file}}.md) | {{#each sizes}}[{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-{{this}}.png){{/each}}{{#with scalable}} &bull; [Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}.svg){{/with}} |
+| [![{{name}}](../assets/{{../dir}}/{{../dir}}-{{file}}-256.png)]({{../dir}}-{{file}}.md) | {{#each sizes}}&bull; [{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-{{this}}.png) {{/each}}{{#with scalable}}&bull; [Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}.svg){{/with}} &bull; |
 {{#with mono}}
 {{#each ../../colours}}
-  | [![{{../name}} {{this}}](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-{{this}}-256.png)]({{../dir}}-{{file}}.md#{{this}}) | {{#each ../../sizes}}[{{this}}w](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}-{{this}}.png){{/each}}{{#with ../../scalable}} &bull; [Scalable SVG](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}.svg){{/with}} |
+  | [![{{../name}} {{this}}](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-{{this}}-256.png)]({{../dir}}-{{file}}.md#{{this}}) | {{#each ../../sizes}}&bull; [{{this}}w](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}-{{this}}.png){{/each}}{{#with ../../scalable}}&bull; [Scalable SVG](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}.svg){{/with}} &bull; |
 {{/each}}
-| [![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000-256.png)]({{../../dir}}-{{../file}}.md#000000) | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-000000-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000.svg){{/with}} |
-| [![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff-256.png)]({{../../dir}}-{{../file}}.md#ffffff) | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-ffffff-{{this}}.png){{/each}}{{#with ../scalable}} &bull; [Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff.svg){{/with}} |
+| [![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000-256.png)]({{../../dir}}-{{../file}}.md#000000) | {{#each ../sizes}}&bull; [{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-000000-{{this}}.png) {{/each}}{{#with ../scalable}}&bull; [Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000.svg){{/with}} &bull; |
+| [![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff-256.png)]({{../../dir}}-{{../file}}.md#ffffff) | {{#each ../sizes}}&bull; [{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-ffffff-{{this}}.png) {{/each}}{{#with ../scalable}}&bull; [Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff.svg){{/with}} &bull; |
 {{/with}}
 
 {{/each}}
