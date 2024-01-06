@@ -12,13 +12,13 @@
 
 | Preview | Formats |
 | ------- | ------- |
-| ![{{name}}](../assets/{{../dir}}/{{../dir}}-{{../thumbnail}}-256.png) | {{#each sizes}}[{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-{{this}}.png) &bull; {{/each}}{{#with scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}.svg){{/with}} |
+| ![{{name}}](../assets/{{../dir}}/{{../dir}}-{{../file}}-256.png) | {{#each sizes}}[{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-{{this}}.png) &bull; {{/each}}{{#with scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}.svg){{/with}} |
 {{#with mono}}
 {{#each ../../colours}}
-| ![{{../name}} {{this}}](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-{{this}}-256.png) | {{#each ../../sizes}}[{{this}}w](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-{{../this}}-{{this}}.png) &bull; {{/each}}{{#with ../../scalable}}[Scalable SVG](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-{{../this}}.svg){{/with}} |
+  | ![{{../name}} {{this}}](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-{{this}}-256.png) | {{#each ../../sizes}}[{{this}}w](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}-{{this}}.png) &bull; {{/each}}{{#with ../../scalable}}[Scalable SVG](../assets/{{../../../../dir}}/{{../../../../dir}}-{{../../../file}}-mono-{{../this}}.svg){{/with}} |
 {{/each}}
-| ![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-000000-256.png) | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-000000-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-000000.svg){{/with}} |
-| ![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-ffffff-256.png) | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-ffffff-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-ffffff.svg){{/with}} |
+| ![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000-256.png) | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-000000-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-000000.svg){{/with}} |
+| ![{{../name}} black](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff-256.png) | {{#each ../sizes}}[{{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../file}}-mono-ffffff-{{this}}.png) &bull; {{/each}}{{#with ../scalable}}[Scalable SVG](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-mono-ffffff.svg){{/with}} |
 {{/with}}
 
 {{/each}}
@@ -27,5 +27,5 @@
 
 |{{#each colours}} #{{this}} | {{/each}}
 |{{#each colours}} --- | {{/each}}
-|{{#each colours}} <div style="width: 96px; height: 96px; background-color: #{{this}};">&nbsp;</div> | {{/each}}
+|{{#each colours}} <p style="width: 96px; height: 96px; background-color: #{{this}};">&nbsp;</p> | {{/each}}
 
