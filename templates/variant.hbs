@@ -11,6 +11,7 @@
 {{description}}
 
 | Preview | Formats |
+| ------- | ------- |
 | ![{{name}}](../assets/{{../dir}}/{{../dir}}-{{../thumbnail}}-256.png) | {{#each sizes}}[{{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../file}}-{{this}}.png) &bull; {{/each}}{{#with scalable}}[Scalable SVG](../assets/{{../dir}}/{{../dir}}-{{file}}.svg){{/with}} |
 {{#with mono}}
 {{#each colours}}
@@ -24,6 +25,7 @@
 
 #### Colours
 
-|{{#each colours}} <div style="width: 64px; height: 64px; background-color: #{{this}};"></div> | {{/each}}
 |{{#each colours}} #{{this}} | {{/each}}
+|{{#each colours}} --- | {{/each}}
+|{{#each colours}} <div style="width: 64px; height: 64px; background-color: #{{this}};"></div> | {{/each}}
 

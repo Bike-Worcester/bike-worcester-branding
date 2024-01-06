@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A collection of brand guidelines and resources for Bike Worcester and its associated projects.",
   "scripts": {
-    "docs": "plop --plopfile ./plopfile.js docs"
+    "docs": "plop --plopfile ./plopfile.js docs",
+    "generate": "node ./scripts/build.mjs",
+    "build": "npm run docs && npm run generate"
   },
   "repository": {
     "type": "git",

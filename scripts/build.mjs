@@ -73,14 +73,14 @@ const convert = async ({
   let src = path.resolve(baseDir, 'src', dir, `${file}.svg`);
   if (size) {
     // Convert svg to png scaled to given width
-    const filename = `${file}-${size}.png`;
+    const filename = `${dir}-${file}-${size}.png`;
     const dest = path.resolve(baseDir, 'assets', dir, filename);
     await svgToPng(src, dest, size);
   } else {
     if (scalable) {
       const str = await svgToString(src);
       // Optimise svg file and save as is
-      const outPath = `${file}.svg`;
+      const outPath = `${dir}-${file}.svg`;
       const dest = path.resolve(baseDir, 'assets', dir, outPath);
       await fs.writeFile(dest, str);
       log(dest);
@@ -92,7 +92,7 @@ const convert = async ({
       await ['ffffff', '000000', ...colours].reduce(
         (promise, colour) =>
           promise.then(async () => {
-            const outPath = `${file}-mono-${colour}`;
+            const outPath = `${dir}-${file}-mono-${colour}`;
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
             await fs.writeFile(dest, str.replaceAll(/#000000/gi, `#${colour}`));
             log(dest);

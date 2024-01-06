@@ -2,7 +2,7 @@
 
 A collection of brand guidelines and resources for Bike Worcester and its associated projects.
 
-[Visit docs to download resources](docs)
+[Visit docs to download resources](docs/index.md)
 
 ## Installation
 
