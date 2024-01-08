@@ -50,4 +50,48 @@ module.exports = {
       },
     ],
   },
+  'bikebus-logo': {
+    name: 'BikeBus logo',
+    thumbnail: 'badge',
+    variants: [
+      {
+        file: 'full',
+        name: 'Badge and text',
+        sizes: [512, 1024, 2048],
+        scalable: true,
+        description: 'Full logo for general use, space permitting.',
+        mono: true,
+      },
+      {
+        file: 'text',
+        name: 'Text only',
+        sizes: [512, 1024, 2048],
+        scalable: true,
+        description:
+          'Text only logo for use where space is limited or for website header bars.',
+        mono: true,
+      },
+      {
+        file: 'badge',
+        name: 'Badge only',
+        sizes: [16, 32, 64, 512],
+        description:
+          'Smaller sized logo where ledgibility is difficult (website favicons, for example), or if logo appears near to "BikeBus" text.',
+        scalable: true,
+        mono: true,
+      },
+    ],
+    colours: [
+      // Colours used in, and complimentary to, the logo (in order of priority, without # prefix)
+      '3E5062',
+      '81CA9F',
+    ],
+    typography: [
+      {
+        name: 'Logo',
+        font: 'Jost Extra Bold',
+        link: 'https://fonts.google.com/specimen/Jost',
+      },
+    ],
+  },
 };
