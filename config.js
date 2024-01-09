@@ -83,8 +83,16 @@ module.exports = {
     ],
     colours: [
       // Colours used in, and complimentary to, the logo (in order of priority, without # prefix)
-      '3E5062',
-      '81CA9F',
+      '3E5062', // logo base
+      '81CA9F', // logo fore
+
+      // additional palette colours
+      '623E62', // colour 1 base
+      '62503E', // colour 2 base
+      '3E623E', // colour 3 base
+      '8187CA', // colour 1 fore
+      'CA81AC', // colour 2 fore
+      'CAC381', // colour 3 fore
     ],
     typography: [
       {
