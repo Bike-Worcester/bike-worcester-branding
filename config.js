@@ -41,6 +41,13 @@ module.exports = {
       // Colours used in, and complimentary to, the logo (in order of priority, without # prefix)
       '3E5062',
       '81CA9F',
+      // additional palette colours
+      '623E62', // colour 1 base
+      '62503E', // colour 2 base
+      '3E623E', // colour 3 base
+      '8187CA', // colour 1 fore
+      'CA81AC', // colour 2 fore
+      'CAC381', // colour 3 fore
     ],
     typography: [
       {
@@ -80,19 +87,20 @@ module.exports = {
         scalable: true,
         mono: true,
       },
+      {
+        file: 'curved',
+        name: 'Badge and text on a curved baseline',
+        sizes: [512, 1024, 2048],
+        scalable: true,
+        description:
+          'Full logo for around the edges of badges and circular signs.',
+        mono: true,
+      },
     ],
     colours: [
       // Colours used in, and complimentary to, the logo (in order of priority, without # prefix)
       '3E5062', // logo base
       '81CA9F', // logo fore
-
-      // additional palette colours
-      '623E62', // colour 1 base
-      '62503E', // colour 2 base
-      '3E623E', // colour 3 base
-      '8187CA', // colour 1 fore
-      'CA81AC', // colour 2 fore
-      'CAC381', // colour 3 fore
     ],
     typography: [
       {
