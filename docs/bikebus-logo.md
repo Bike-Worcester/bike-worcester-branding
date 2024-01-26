@@ -75,35 +75,35 @@ Banner design in violet for displaying outside schools.
 
 | Preview | Formats |
 | ------- | ------- |
-| [![Banner violet](../assets/bikebus-logo/bikebus-logo-violet-banner-256.png)](bikebus-logo-violet-banner.md) |  &bull; |
+| [![Banner violet](../assets/bikebus-logo/bikebus-logo-violet-banner-256.png)](bikebus-logo-violet-banner.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-violet-banner.svg) &bull; |
 
 ### Banner pink
 Banner design in pink for displaying outside schools.
 
 | Preview | Formats |
 | ------- | ------- |
-| [![Banner pink](../assets/bikebus-logo/bikebus-logo-pink-banner-256.png)](bikebus-logo-pink-banner.md) |  &bull; |
+| [![Banner pink](../assets/bikebus-logo/bikebus-logo-pink-banner-256.png)](bikebus-logo-pink-banner.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-pink-banner.svg) &bull; |
 
 ### Banner yellow
 Banner design in yellow for displaying outside schools.
 
 | Preview | Formats |
 | ------- | ------- |
-| [![Banner yellow](../assets/bikebus-logo/bikebus-logo-yellow-banner-256.png)](bikebus-logo-yellow-banner.md) |  &bull; |
+| [![Banner yellow](../assets/bikebus-logo/bikebus-logo-yellow-banner-256.png)](bikebus-logo-yellow-banner.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-yellow-banner.svg) &bull; |
 
 ### Banner purple
 Banner design in purple for displaying outside schools.
 
 | Preview | Formats |
 | ------- | ------- |
-| [![Banner purple](../assets/bikebus-logo/bikebus-logo-purple-banner-256.png)](bikebus-logo-purple-banner.md) |  &bull; |
+| [![Banner purple](../assets/bikebus-logo/bikebus-logo-purple-banner-256.png)](bikebus-logo-purple-banner.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-purple-banner.svg) &bull; |
 
 ### Banner green
 Banner design in green for displaying outside schools.
 
 | Preview | Formats |
 | ------- | ------- |
-| [![Banner green](../assets/bikebus-logo/bikebus-logo-green-banner-256.png)](bikebus-logo-green-banner.md) |  &bull; |
+| [![Banner green](../assets/bikebus-logo/bikebus-logo-green-banner-256.png)](bikebus-logo-green-banner.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-green-banner.svg) &bull; |
 
 
 ### Colours
