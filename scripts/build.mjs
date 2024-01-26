@@ -82,6 +82,7 @@ const convert = async ({
   scalable = false,
   colours,
   sizes,
+  copy,
 }) => {
   let src = path.resolve(baseDir, 'src', dir, `${file}.svg`);
   if (size) {
@@ -90,6 +91,13 @@ const convert = async ({
     const dest = path.resolve(baseDir, 'assets', dir, filename);
     await svgToPng(src, dest, size);
   } else {
+    if (copy) {
+      // Copy svg file as is
+      const outPath = `${dir}-${file}.svg`;
+      const dest = path.resolve(baseDir, 'assets', dir, outPath);
+      await fs.copyFile(src, dest);
+      log(dest);
+    }
     if (scalable) {
       const str = await svgToString(src);
       // Optimise svg file and save as is
@@ -143,43 +151,42 @@ await fs.rm(path.resolve(baseDir, 'assets'), { recursive: true });
 
 // Creating assets
 console.log(colors.yellow('Creating assets...'));
-await Object.keys(config).reduce(
-  (promise, dir) =>
-    promise.then(async () => {
-      await fs.mkdir(path.resolve(baseDir, 'assets', dir), {
-        recursive: true,
-      });
-      await config[dir].variants.reduce(
-        (p, { file, sizes: _sizes, scalable, mono }) =>
-          p.then(async () => {
-            const sizes = [..._sizes, 128, 256];
-            await sizes
-              .filter((size, i, arr) => arr.indexOf(size) === i)
-              .sort()
-              .reduce(
-                (_p, size) => _p.then(() => convert({ dir, file, size })),
-                Promise.resolve(),
-              );
-            await convert({
-              dir,
-              file,
-              scalable,
-              mono,
-              colours: config[dir].colours,
-              sizes,
-            });
-          }),
-        Promise.resolve(),
-      );
-      await config[dir].colours.reduce(
-        (promise, colour) =>
-          promise.then(async () => {
-            await generateSwatch(dir, colour);
-          }),
-        Promise.resolve(),
-      );
-    }),
-  Promise.resolve(),
+await Promise.all(
+  Object.keys(config).map(async (dir) => {
+    await fs.mkdir(path.resolve(baseDir, 'assets', dir), {
+      recursive: true,
+    });
+    await config[dir].variants.reduce(
+      (p, { file, sizes: _sizes, scalable, mono, copy }) =>
+        p.then(async () => {
+          const sizes = [..._sizes, 128, 256];
+          await sizes
+            .filter((size, i, arr) => arr.indexOf(size) === i)
+            .sort()
+            .reduce(
+              (_p, size) => _p.then(() => convert({ dir, file, size })),
+              Promise.resolve(),
+            );
+          await convert({
+            dir,
+            file,
+            scalable,
+            mono,
+            colours: config[dir].colours,
+            sizes,
+            copy,
+          });
+        }),
+      Promise.resolve(),
+    );
+    await config[dir].colours.reduce(
+      (promise, colour) =>
+        promise.then(async () => {
+          await generateSwatch(dir, colour);
+        }),
+      Promise.resolve(),
+    );
+  }),
 );
 
 console.log();

@@ -96,11 +96,23 @@ module.exports = {
           'Full logo for around the edges of badges and circular signs.',
         mono: true,
       },
+      ...['violet', 'pink', 'yellow', 'purple', 'green'].map((colour) => ({
+        file: `${colour}-banner`,
+        name: `Banner ${colour}`,
+        sizes: [],
+        description: `Banner design in ${colour} for displaying outside schools.`,
+        copy: true,
+      })),
     ],
     colours: [
       // Colours used in, and complimentary to, the logo (in order of priority, without # prefix)
       '3E5062', // logo base
       '81CA9F', // logo fore
+      '623E62', // colour 1 base
+      '3E623E', // colour 3 base
+      '8187CA', // colour 1 fore
+      'CA81AC', // colour 2 fore
+      'CAC381', // colour 3 fore
     ],
     typography: [
       {
