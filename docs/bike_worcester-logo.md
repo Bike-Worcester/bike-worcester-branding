@@ -54,6 +54,20 @@ Thumbnail for social sharing and website/blog use
 | ------- | ------- |
 | [![Thumbnail](../assets/bike_worcester-logo/bike_worcester-logo-thumbnail-256.png)](bike_worcester-logo-thumbnail.md) | &bull; [1200w](../assets/bike_worcester-logo/bike_worcester-logo-thumbnail-1200.png)  &bull; |
 
+### Titles on black
+Wide logo on black for 16:9 video titles.
+
+| Preview | Formats |
+| ------- | ------- |
+| [![Titles on black](../assets/bike_worcester-logo/bike_worcester-logo-titles-black-256.png)](bike_worcester-logo-titles-black.md) | &bull; [1920w](../assets/bike_worcester-logo/bike_worcester-logo-titles-black-1920.png) &bull; [3840w](../assets/bike_worcester-logo/bike_worcester-logo-titles-black-3840.png)  &bull; |
+
+### Titles on white
+Wide logo on white for 16:9 video titles.
+
+| Preview | Formats |
+| ------- | ------- |
+| [![Titles on white](../assets/bike_worcester-logo/bike_worcester-logo-titles-white-256.png)](bike_worcester-logo-titles-white.md) | &bull; [1920w](../assets/bike_worcester-logo/bike_worcester-logo-titles-white-1920.png) &bull; [3840w](../assets/bike_worcester-logo/bike_worcester-logo-titles-white-3840.png)  &bull; |
+
 
 ### Colours
 

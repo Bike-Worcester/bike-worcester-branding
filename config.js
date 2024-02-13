@@ -36,6 +36,18 @@ module.exports = {
         sizes: [1200],
         description: 'Thumbnail for social sharing and website/blog use',
       },
+      {
+        file: 'titles-black',
+        name: 'Titles on black',
+        sizes: [1920, 3840],
+        description: 'Wide logo on black for 16:9 video titles.',
+      },
+      {
+        file: 'titles-white',
+        name: 'Titles on white',
+        sizes: [1920, 3840],
+        description: 'Wide logo on white for 16:9 video titles.',
+      },
     ],
     colours: [
       // Colours used in, and complimentary to, the logo (in order of priority, without # prefix)
@@ -103,6 +115,18 @@ module.exports = {
         description: `Banner design in ${colour} for displaying outside schools.`,
         copy: true,
       })),
+      {
+        file: 'titles-black',
+        name: 'Titles on black',
+        sizes: [1920, 3840],
+        description: 'Lighter colour logo on black for 16:9 video titles.',
+      },
+      {
+        file: 'titles-white',
+        name: 'Titles on white',
+        sizes: [1920, 3840],
+        description: 'Darker colour logo on white for 16:9 video titles.',
+      },
     ],
     colours: [
       // Colours used in, and complimentary to, the logo (in order of priority, without # prefix)

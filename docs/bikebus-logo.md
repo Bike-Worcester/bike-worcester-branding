@@ -105,6 +105,20 @@ Banner design in green for displaying outside schools.
 | ------- | ------- |
 | [![Banner green](../assets/bikebus-logo/bikebus-logo-green-banner-256.png)](bikebus-logo-green-banner.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-green-banner.svg) &bull; |
 
+### Titles on black
+Lighter colour logo on black for 16:9 video titles.
+
+| Preview | Formats |
+| ------- | ------- |
+| [![Titles on black](../assets/bikebus-logo/bikebus-logo-titles-black-256.png)](bikebus-logo-titles-black.md) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-titles-black-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-titles-black-3840.png)  &bull; |
+
+### Titles on white
+Darker colour logo on white for 16:9 video titles.
+
+| Preview | Formats |
+| ------- | ------- |
+| [![Titles on white](../assets/bikebus-logo/bikebus-logo-titles-white-256.png)](bikebus-logo-titles-white.md) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-titles-white-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-titles-white-3840.png)  &bull; |
+
 
 ### Colours
 
