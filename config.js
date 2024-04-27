@@ -72,6 +72,7 @@ const config = {
     name: 'BikeBus logo',
     thumbnail: 'badge',
     variants: [
+      /*
       {
         file: 'full',
         name: 'Badge and text',
