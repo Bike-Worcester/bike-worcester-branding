@@ -121,7 +121,7 @@ const config = {
       {
         file: 'flag',
         name: 'Flag',
-        sizes: [],
+        sizes: [3840],
         scalable: true,
         description: 'Flag design for use on Bike Buses.',
         multicolours: true,
@@ -129,7 +129,7 @@ const config = {
       {
         file: 'banner',
         name: 'Banner',
-        sizes: [],
+        sizes: [3840],
         scalable: true,
         description: 'Banner design for displaying outside schools.',
         multicolours: true,

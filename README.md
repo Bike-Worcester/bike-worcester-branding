@@ -80,7 +80,7 @@ const config =
         description: 'Description of variant',
         sizes: [1024,2048], // Array of widths to generate images to (leave blank for no images)
         mono: false, // If true, include a file-mono.svg file in the assets
-        multicolour: false, // If true, file should include pure black and white for fg and bg colours
+        multicolours: false, // If true, file should include pure black and white for fg and bg colours
         scalable: true, // If true, generates an svg file of the variant,
         copy: false, // If true, generates a copy of the original file
       }

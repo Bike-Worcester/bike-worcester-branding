@@ -61,14 +61,14 @@ Flag design for use on Bike Buses.
 
 | Preview | Formats |
 | ------- | ------- |
-| [![Flag](../assets/bikebus-logo/bikebus-logo-flag-256.png)](bikebus-logo-flag.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-flag.svg) &bull; |
+| [![Flag](../assets/bikebus-logo/bikebus-logo-flag-256.png)](bikebus-logo-flag.md) | &bull; [3840w](../assets/bikebus-logo/bikebus-logo-flag-3840.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-flag.svg) &bull; |
 
 ### Banner
 Banner design for displaying outside schools.
 
 | Preview | Formats |
 | ------- | ------- |
-| [![Banner](../assets/bikebus-logo/bikebus-logo-banner-256.png)](bikebus-logo-banner.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-banner.svg) &bull; |
+| [![Banner](../assets/bikebus-logo/bikebus-logo-banner-256.png)](bikebus-logo-banner.md) | &bull; [3840w](../assets/bikebus-logo/bikebus-logo-banner-3840.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-banner.svg) &bull; |
 
 ### Stop Sign
 Stop signs design

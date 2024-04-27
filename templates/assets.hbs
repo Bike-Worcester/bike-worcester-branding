@@ -13,6 +13,34 @@
 ![{{this}}w](../assets/{{../dir}}/{{../dir}}-{{../file}}-{{this}}.png)
 
 {{/each}}
+{{#with multicolors}}
+{{#each ../colourList}}
+---
+## {{this}}
+{{#each ../../sizes}}
+### {{this}}w
+
+![{{../this}} {{this}}w](../assets/{{../../../dir}}/{{../../../dir}}-{{../../../file}}-mono-{{../this}}-{{this}}.png)
+
+{{/each}}
+{{/each}}
+---
+## Black
+{{#each ../sizes}}
+### {{this}}w
+
+![Black {{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../../file}}-mono-000000-{{this}}.png)
+
+{{/each}}
+---
+## White
+{{#each ../sizes}}
+### {{this}}w
+
+![White {{this}}w](../assets/{{../../dir}}/{{../../dir}}-{{../../file}}-mono-ffffff-{{this}}.png)
+
+{{/each}}
+{{/with}}
 {{#with mono}}
 {{#each ../colourList}}
 ---
