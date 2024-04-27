@@ -18,6 +18,24 @@ cd ./bike-worcester-branding
 pnpm install
 ```
 
+Also make sure the path to the Inkscape binary is in your `$PATH`. You can check this by running:
+
+```bash
+which inkscape
+```
+
+If you don't have Inkscape installed, you can install it with:
+
+```bash
+sudo apt-get install inkscape
+
+# or
+
+brew install inkscape
+```
+
+If you're on Windows, you can download the installer from the [Inkscape website](https://inkscape.org/).
+
 ## Building
 
 To generate images from the `src` vector files:

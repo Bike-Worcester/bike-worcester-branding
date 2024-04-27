@@ -24,130 +24,130 @@ Smaller sized logo where ledgibility is difficult (website favicons, for example
 ![512w](../assets/bikebus-logo/bikebus-logo-badge-512.png)
 
 ---
-## 3E5062
+## 1C1C1C
 ### 16w
 
-![3E5062 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-3E5062-16.png)
+![1C1C1C 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-16.png)
 
 ### 32w
 
-![3E5062 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-3E5062-32.png)
+![1C1C1C 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-32.png)
 
 ### 64w
 
-![3E5062 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-3E5062-64.png)
+![1C1C1C 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-64.png)
 
 ### 512w
 
-![3E5062 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-3E5062-512.png)
+![1C1C1C 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-512.png)
 
 ---
-## 81CA9F
+## E3E3E3
 ### 16w
 
-![81CA9F 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-81CA9F-16.png)
+![E3E3E3 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-16.png)
 
 ### 32w
 
-![81CA9F 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-81CA9F-32.png)
+![E3E3E3 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-32.png)
 
 ### 64w
 
-![81CA9F 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-81CA9F-64.png)
+![E3E3E3 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-64.png)
 
 ### 512w
 
-![81CA9F 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-81CA9F-512.png)
+![E3E3E3 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-512.png)
 
 ---
-## 623E62
+## E3E3E3
 ### 16w
 
-![623E62 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-623E62-16.png)
+![E3E3E3 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-16.png)
 
 ### 32w
 
-![623E62 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-623E62-32.png)
+![E3E3E3 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-32.png)
 
 ### 64w
 
-![623E62 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-623E62-64.png)
+![E3E3E3 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-64.png)
 
 ### 512w
 
-![623E62 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-623E62-512.png)
+![E3E3E3 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-512.png)
 
 ---
-## 3E623E
+## E3E3E3
 ### 16w
 
-![3E623E 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-3E623E-16.png)
+![E3E3E3 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-16.png)
 
 ### 32w
 
-![3E623E 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-3E623E-32.png)
+![E3E3E3 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-32.png)
 
 ### 64w
 
-![3E623E 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-3E623E-64.png)
+![E3E3E3 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-64.png)
 
 ### 512w
 
-![3E623E 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-3E623E-512.png)
+![E3E3E3 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-512.png)
 
 ---
-## 8187CA
+## E3E3E3
 ### 16w
 
-![8187CA 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-8187CA-16.png)
+![E3E3E3 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-16.png)
 
 ### 32w
 
-![8187CA 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-8187CA-32.png)
+![E3E3E3 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-32.png)
 
 ### 64w
 
-![8187CA 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-8187CA-64.png)
+![E3E3E3 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-64.png)
 
 ### 512w
 
-![8187CA 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-8187CA-512.png)
+![E3E3E3 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-E3E3E3-512.png)
 
 ---
-## CA81AC
+## 1C1C1C
 ### 16w
 
-![CA81AC 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-CA81AC-16.png)
+![1C1C1C 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-16.png)
 
 ### 32w
 
-![CA81AC 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-CA81AC-32.png)
+![1C1C1C 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-32.png)
 
 ### 64w
 
-![CA81AC 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-CA81AC-64.png)
+![1C1C1C 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-64.png)
 
 ### 512w
 
-![CA81AC 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-CA81AC-512.png)
+![1C1C1C 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-512.png)
 
 ---
-## CAC381
+## 1C1C1C
 ### 16w
 
-![CAC381 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-CAC381-16.png)
+![1C1C1C 16w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-16.png)
 
 ### 32w
 
-![CAC381 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-CAC381-32.png)
+![1C1C1C 32w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-32.png)
 
 ### 64w
 
-![CAC381 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-CAC381-64.png)
+![1C1C1C 64w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-64.png)
 
 ### 512w
 
-![CAC381 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-CAC381-512.png)
+![1C1C1C 512w](../assets/bikebus-logo/bikebus-logo-badge-mono-1C1C1C-512.png)
 
 ---
 ## Black
