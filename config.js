@@ -7,12 +7,12 @@ module.exports = {
     thumbnail: 'square',
     variants: [
       {
-        file: 'square',
-        name: 'Square',
-        sizes: [512, 1024, 2048],
+        file: 'square', // The base filename of the source vector file (without extension)
+        name: 'Square', // Human readable name (displayed in the docs)
+        sizes: [512, 1024, 2048], // Sizes to generate (in pixels)
         scalable: true, // Produce a scalable vector version - this removes fixed sizes from svg file
         description:
-          'Square logo for general use (for smaller sized icons use Badge).',
+          'Square logo for general use (for smaller sized icons use Badge).', // Description of the variant (displayed in the docs)
         mono: true, // Produce a monochrome version of the logo (src must have a -mono.svg version available)
       },
       {
