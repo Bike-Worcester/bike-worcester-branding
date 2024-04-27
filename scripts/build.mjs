@@ -80,6 +80,7 @@ const convert = async ({
   size,
   mono = false,
   scalable = false,
+  multicolours = false,
   colours,
   sizes,
   copy,
@@ -106,23 +107,33 @@ const convert = async ({
       await fs.writeFile(dest, str);
       log(dest);
     }
-    if (mono) {
-      src = path.resolve(baseDir, 'src', dir, `${file}-mono.svg`);
+    if (mono || multicolours) {
+      src = path.resolve(
+        baseDir,
+        'src',
+        dir,
+        mono ? `${file}-mono.svg` : `${file}.svg`,
+      );
       const str = await svgToString(src);
       // Optimise svg then change all occurances of black to each colour and save
       const conversions = {
-        '1c1c1c': '000000',
-        // prettier-ignore
-        'e3e3e3': 'ffffff',
+        '1c1c1c': 'e3e3e3',
+        e3e3e3: '1c1c1c',
+        ...colours,
       };
-      await [...Object.keys(conversions), ...colours].reduce(
+      await Object.keys(conversions).reduce(
         (promise, colour) =>
           promise.then(async () => {
-            const outPath = `${dir}-${file}-mono-${
-              conversions[colour] || colour
-            }`;
+            const fg = colour;
+            const bg = conversions[colour];
+            const outPath = `${dir}-${file}-${mono ? 'mono-' : ''}${fg}`;
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
-            await fs.writeFile(dest, str.replaceAll(/#000000/gi, `#${colour}`));
+            await fs.writeFile(
+              dest,
+              str
+                .replaceAll(/#000000/gi, `#${fg}`)
+                .replaceAll(/#ffffff/gi, `#${bg}`),
+            );
             log(dest);
             await sizes.reduce(
               (_promise, size) =>
@@ -157,7 +168,7 @@ await Promise.all(
       recursive: true,
     });
     await config[dir].variants.reduce(
-      (p, { file, sizes: _sizes, scalable, mono, copy }) =>
+      (p, { file, sizes: _sizes, scalable, multicolours, mono, copy }) =>
         p.then(async () => {
           const sizes = [..._sizes, 128, 256];
           await sizes
@@ -172,6 +183,7 @@ await Promise.all(
             file,
             scalable,
             mono,
+            multicolours,
             colours: config[dir].colours,
             sizes,
             copy,
@@ -179,7 +191,7 @@ await Promise.all(
         }),
       Promise.resolve(),
     );
-    await config[dir].colours.reduce(
+    await Object.keys(config[dir].colours).reduce(
       (promise, colour) =>
         promise.then(async () => {
           await generateSwatch(dir, colour);

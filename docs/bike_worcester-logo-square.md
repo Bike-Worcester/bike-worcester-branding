@@ -20,116 +20,102 @@ Square logo for general use (for smaller sized icons use Badge).
 ![2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-2048.png)
 
 ---
-## 3E5062
+## 1C1C1C
 ### 512w
 
-![3E5062 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-3E5062-512.png)
+![1C1C1C 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-1C1C1C-512.png)
 
 ### 1024w
 
-![3E5062 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-3E5062-1024.png)
+![1C1C1C 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-1C1C1C-1024.png)
 
 ### 2048w
 
-![3E5062 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-3E5062-2048.png)
+![1C1C1C 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-1C1C1C-2048.png)
 
 ---
-## 81CA9F
+## E3E3E3
 ### 512w
 
-![81CA9F 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-81CA9F-512.png)
+![E3E3E3 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-512.png)
 
 ### 1024w
 
-![81CA9F 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-81CA9F-1024.png)
+![E3E3E3 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-1024.png)
 
 ### 2048w
 
-![81CA9F 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-81CA9F-2048.png)
+![E3E3E3 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-2048.png)
 
 ---
-## 623E62
+## E3E3E3
 ### 512w
 
-![623E62 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-623E62-512.png)
+![E3E3E3 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-512.png)
 
 ### 1024w
 
-![623E62 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-623E62-1024.png)
+![E3E3E3 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-1024.png)
 
 ### 2048w
 
-![623E62 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-623E62-2048.png)
+![E3E3E3 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-2048.png)
 
 ---
-## 62503E
+## E3E3E3
 ### 512w
 
-![62503E 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-62503E-512.png)
+![E3E3E3 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-512.png)
 
 ### 1024w
 
-![62503E 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-62503E-1024.png)
+![E3E3E3 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-1024.png)
 
 ### 2048w
 
-![62503E 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-62503E-2048.png)
+![E3E3E3 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-2048.png)
 
 ---
-## 3E623E
+## E3E3E3
 ### 512w
 
-![3E623E 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-3E623E-512.png)
+![E3E3E3 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-512.png)
 
 ### 1024w
 
-![3E623E 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-3E623E-1024.png)
+![E3E3E3 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-1024.png)
 
 ### 2048w
 
-![3E623E 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-3E623E-2048.png)
+![E3E3E3 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-E3E3E3-2048.png)
 
 ---
-## 8187CA
+## 1C1C1C
 ### 512w
 
-![8187CA 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-8187CA-512.png)
+![1C1C1C 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-1C1C1C-512.png)
 
 ### 1024w
 
-![8187CA 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-8187CA-1024.png)
+![1C1C1C 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-1C1C1C-1024.png)
 
 ### 2048w
 
-![8187CA 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-8187CA-2048.png)
+![1C1C1C 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-1C1C1C-2048.png)
 
 ---
-## CA81AC
+## 1C1C1C
 ### 512w
 
-![CA81AC 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-CA81AC-512.png)
+![1C1C1C 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-1C1C1C-512.png)
 
 ### 1024w
 
-![CA81AC 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-CA81AC-1024.png)
+![1C1C1C 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-1C1C1C-1024.png)
 
 ### 2048w
 
-![CA81AC 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-CA81AC-2048.png)
-
----
-## CAC381
-### 512w
-
-![CAC381 512w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-CAC381-512.png)
-
-### 1024w
-
-![CAC381 1024w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-CAC381-1024.png)
-
-### 2048w
-
-![CAC381 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-CAC381-2048.png)
+![1C1C1C 2048w](../assets/bike_worcester-logo/bike_worcester-logo-square-mono-1C1C1C-2048.png)
 
 ---
 ## Black

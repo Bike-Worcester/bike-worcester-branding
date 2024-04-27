@@ -42,5 +42,14 @@ When designing new artwork, follow these guidelines:
   - remove all fill and stroke colours
   - convert all strokes to paths
   - reduce to a single compound path and fill black
+- When saving multicolour files:
+  - set the shapes to be coloured to pure black
+  - set the background to pure white
 
 _Note: Some applications generate messy non-standard svg files, so always check the exported svg file in a web browser._
+
+## Troubleshooting
+
+### Build process fails reading `controlPoint`
+
+If the build process fails with this `svgo` error, open the original svg file in [svgomg](https://jakearchibald.github.io/svgomg/) and save it again. This will clean up the file and remove any non-standard attributes.
