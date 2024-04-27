@@ -118,6 +118,34 @@ Wide logo for letterheads and headers.
 ![CAC381 2048w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-CAC381-2048.png)
 
 ---
+## 1C1C1C
+### 512w
+
+![1C1C1C 512w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-1C1C1C-512.png)
+
+### 1024w
+
+![1C1C1C 1024w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-1C1C1C-1024.png)
+
+### 2048w
+
+![1C1C1C 2048w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-1C1C1C-2048.png)
+
+---
+## E3E3E3
+### 512w
+
+![E3E3E3 512w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-E3E3E3-512.png)
+
+### 1024w
+
+![E3E3E3 1024w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-E3E3E3-1024.png)
+
+### 2048w
+
+![E3E3E3 2048w](../assets/bike_worcester-logo/bike_worcester-logo-wide-mono-E3E3E3-2048.png)
+
+---
 ## Black
 ### 512w
 

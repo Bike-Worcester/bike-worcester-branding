@@ -117,8 +117,6 @@ const convert = async ({
       const str = await svgToString(src);
       // Optimise svg then change all occurances of black to each colour and save
       const conversions = {
-        '1c1c1c': 'e3e3e3',
-        e3e3e3: '1c1c1c',
         ...colours,
       };
       await Object.keys(conversions).reduce(

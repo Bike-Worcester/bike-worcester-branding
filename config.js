@@ -58,6 +58,8 @@ const config = {
       '8187CA': '1C1C1C', // colour 1 fore
       CA81AC: '1C1C1C', // colour 2 fore
       CAC381: '1C1C1C', // colour 3 fore
+      '1C1C1C': 'E3E3E3',
+      E3E3E3: '1C1C1C',
     },
     typography: [
       {
@@ -152,6 +154,8 @@ const config = {
       '8187CA': '1C1C1C', // colour 1 fore
       CA81AC: '1C1C1C', // colour 2 fore
       CAC381: '1C1C1C', // colour 3 fore
+      '1C1C1C': 'E3E3E3',
+      E3E3E3: '1C1C1C',
     },
     typography: [
       {
