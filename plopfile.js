@@ -21,7 +21,7 @@ module.exports = function (plop) {
                 name,
                 thumbnail,
                 variants: config[dir].variants,
-                colours: config[dir].colours,
+                colours: Object.keys(config[dir].colours),
                 typography,
               },
             },
@@ -34,7 +34,7 @@ module.exports = function (plop) {
                 ...props,
                 dir,
                 parentName: name,
-                colours: config[dir].colours,
+                colours: Object.keys(config[dir].colours),
               },
             })),
           );
