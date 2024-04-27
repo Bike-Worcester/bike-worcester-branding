@@ -67,12 +67,10 @@ const config = {
       },
     ],
   },
-  */
   'bikebus-logo': {
     name: 'BikeBus logo',
     thumbnail: 'badge',
     variants: [
-      /*
       {
         file: 'full',
         name: 'Badge and text',

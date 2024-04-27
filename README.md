@@ -66,6 +66,28 @@ When designing new artwork, follow these guidelines:
 
 _Note: Some applications generate messy non-standard svg files, so always check the exported svg file in a web browser._
 
+## Config options
+
+```javascript
+const config =
+  'id-of-branding': {
+    name: 'Human-readable name of branding',
+    thumbnail: 'variant-file', // 'file' field of variant to use as a thumbnail
+    variants: [
+      {
+        file: 'variant-filename-without-extension',
+        name: 'Human-readable name of variant',
+        description: 'Description of variant',
+        sizes: [1024,2048], // Array of widths to generate images to (leave blank for no images)
+        mono: false, // If true, include a file-mono.svg file in the assets
+        multicolour: false, // If true, file should include pure black and white for fg and bg colours
+        scalable: true, // If true, generates an svg file of the variant,
+        copy: false, // If true, generates a copy of the original file
+      }
+    ]
+  }
+```
+
 ## Troubleshooting
 
 ### Build process fails reading `controlPoint`
