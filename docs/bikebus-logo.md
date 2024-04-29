@@ -38,6 +38,38 @@ Text only logo for use where space is limited or for website header bars.
   | [![ 1C1C1C](../assets/bikebus-logo/bikebus-logo-text-mono-1C1C1C-256.png)](bikebus-logo-text.md#1C1C1C) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-text-mono-1C1C1C-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-text-mono-1C1C1C-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-text-mono-1C1C1C-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-text-mono-1C1C1C.svg) &bull; |
   | [![ E3E3E3](../assets/bikebus-logo/bikebus-logo-text-mono-E3E3E3-256.png)](bikebus-logo-text.md#E3E3E3) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-text-mono-E3E3E3-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-text-mono-E3E3E3-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-text-mono-E3E3E3-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-text-mono-E3E3E3.svg) &bull; |
 
+### Tall text only
+Text only logo for narrow spaces.
+
+| Preview | Formats |
+| ------- | ------- |
+| [![Tall text only](../assets/bikebus-logo/bikebus-logo-tall-256.png)](bikebus-logo-tall.md) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall.svg) &bull; |
+  | [![ 3E5062](../assets/bikebus-logo/bikebus-logo-tall-3E5062-256.png)](bikebus-logo-tall.md#3E5062) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-3E5062-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-3E5062-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-3E5062-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall-3E5062.svg) &bull; |
+  | [![ 81CA9F](../assets/bikebus-logo/bikebus-logo-tall-81CA9F-256.png)](bikebus-logo-tall.md#81CA9F) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-81CA9F-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-81CA9F-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-81CA9F-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall-81CA9F.svg) &bull; |
+  | [![ 623E62](../assets/bikebus-logo/bikebus-logo-tall-623E62-256.png)](bikebus-logo-tall.md#623E62) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-623E62-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-623E62-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-623E62-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall-623E62.svg) &bull; |
+  | [![ 3E623E](../assets/bikebus-logo/bikebus-logo-tall-3E623E-256.png)](bikebus-logo-tall.md#3E623E) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-3E623E-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-3E623E-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-3E623E-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall-3E623E.svg) &bull; |
+  | [![ 8187CA](../assets/bikebus-logo/bikebus-logo-tall-8187CA-256.png)](bikebus-logo-tall.md#8187CA) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-8187CA-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-8187CA-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-8187CA-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall-8187CA.svg) &bull; |
+  | [![ CA81AC](../assets/bikebus-logo/bikebus-logo-tall-CA81AC-256.png)](bikebus-logo-tall.md#CA81AC) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-CA81AC-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-CA81AC-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-CA81AC-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall-CA81AC.svg) &bull; |
+  | [![ CAC381](../assets/bikebus-logo/bikebus-logo-tall-CAC381-256.png)](bikebus-logo-tall.md#CAC381) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-CAC381-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-CAC381-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-CAC381-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall-CAC381.svg) &bull; |
+  | [![ 1C1C1C](../assets/bikebus-logo/bikebus-logo-tall-1C1C1C-256.png)](bikebus-logo-tall.md#1C1C1C) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-1C1C1C-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-1C1C1C-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-1C1C1C-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall-1C1C1C.svg) &bull; |
+  | [![ E3E3E3](../assets/bikebus-logo/bikebus-logo-tall-E3E3E3-256.png)](bikebus-logo-tall.md#E3E3E3) | &bull; [512w](../assets/bikebus-logo/bikebus-logo-tall-E3E3E3-512.png) &bull; [1024w](../assets/bikebus-logo/bikebus-logo-tall-E3E3E3-1024.png) &bull; [2048w](../assets/bikebus-logo/bikebus-logo-tall-E3E3E3-2048.png) &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-tall-E3E3E3.svg) &bull; |
+
+### Ribbon for Bike Bus medals
+Tileable ribbon design for use with end-of-year Bike Bus medals.
+
+| Preview | Formats |
+| ------- | ------- |
+| [![Ribbon for Bike Bus medals](../assets/bikebus-logo/bikebus-logo-ribbon-256.png)](bikebus-logo-ribbon.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon.svg) &bull; |
+  | [![ 3E5062](../assets/bikebus-logo/bikebus-logo-ribbon-3E5062-256.png)](bikebus-logo-ribbon.md#3E5062) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-3E5062.svg) &bull; |
+  | [![ 81CA9F](../assets/bikebus-logo/bikebus-logo-ribbon-81CA9F-256.png)](bikebus-logo-ribbon.md#81CA9F) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-81CA9F.svg) &bull; |
+  | [![ 623E62](../assets/bikebus-logo/bikebus-logo-ribbon-623E62-256.png)](bikebus-logo-ribbon.md#623E62) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-623E62.svg) &bull; |
+  | [![ 3E623E](../assets/bikebus-logo/bikebus-logo-ribbon-3E623E-256.png)](bikebus-logo-ribbon.md#3E623E) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-3E623E.svg) &bull; |
+  | [![ 8187CA](../assets/bikebus-logo/bikebus-logo-ribbon-8187CA-256.png)](bikebus-logo-ribbon.md#8187CA) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-8187CA.svg) &bull; |
+  | [![ CA81AC](../assets/bikebus-logo/bikebus-logo-ribbon-CA81AC-256.png)](bikebus-logo-ribbon.md#CA81AC) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-CA81AC.svg) &bull; |
+  | [![ CAC381](../assets/bikebus-logo/bikebus-logo-ribbon-CAC381-256.png)](bikebus-logo-ribbon.md#CAC381) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-CAC381.svg) &bull; |
+  | [![ 1C1C1C](../assets/bikebus-logo/bikebus-logo-ribbon-1C1C1C-256.png)](bikebus-logo-ribbon.md#1C1C1C) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-1C1C1C.svg) &bull; |
+  | [![ E3E3E3](../assets/bikebus-logo/bikebus-logo-ribbon-E3E3E3-256.png)](bikebus-logo-ribbon.md#E3E3E3) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-E3E3E3.svg) &bull; |
+
 ### Badge only
 Smaller sized logo where ledgibility is difficult (website favicons, for example), or if logo appears near to &quot;BikeBus&quot; text.
 

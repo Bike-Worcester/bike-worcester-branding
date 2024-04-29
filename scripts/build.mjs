@@ -165,9 +165,9 @@ await Promise.all(
     await fs.mkdir(path.resolve(baseDir, 'assets', dir), {
       recursive: true,
     });
-    await config[dir].variants.reduce(
-      (p, { file, sizes: _sizes, scalable, multicolours, mono, copy }) =>
-        p.then(async () => {
+    await Promise.all(
+      config[dir].variants.map(
+        async ({ file, sizes: _sizes, scalable, multicolours, mono, copy }) => {
           const sizes = [..._sizes, 128, 256];
           await sizes
             .filter((size, i, arr) => arr.indexOf(size) === i)
@@ -186,8 +186,8 @@ await Promise.all(
             sizes,
             copy,
           });
-        }),
-      Promise.resolve(),
+        },
+      ),
     );
     await Object.keys(config[dir].colours).reduce(
       (promise, colour) =>

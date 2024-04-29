@@ -91,6 +91,23 @@ const config = {
         mono: true,
       },
       {
+        file: 'tall',
+        name: 'Tall text only',
+        sizes: [512, 1024, 2048],
+        multicolours: true,
+        scalable: true,
+        description: 'Text only logo for narrow spaces.',
+      },
+      {
+        file: 'ribbon',
+        name: 'Ribbon for Bike Bus medals',
+        sizes: [],
+        multicolours: true,
+        scalable: true,
+        description:
+          'Tileable ribbon design for use with end-of-year Bike Bus medals.',
+      },
+      {
         file: 'badge',
         name: 'Badge only',
         sizes: [16, 32, 64, 512],
