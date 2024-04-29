@@ -70,6 +70,22 @@ Tileable ribbon design for use with end-of-year Bike Bus medals.
   | [![ 1C1C1C](../assets/bikebus-logo/bikebus-logo-ribbon-1C1C1C-256.png)](bikebus-logo-ribbon.md#1C1C1C) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-1C1C1C.svg) &bull; |
   | [![ E3E3E3](../assets/bikebus-logo/bikebus-logo-ribbon-E3E3E3-256.png)](bikebus-logo-ribbon.md#E3E3E3) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-ribbon-E3E3E3.svg) &bull; |
 
+### Medal design for Bike Bus medals
+Medal design for end-of-year Bike Bus medals.
+
+| Preview | Formats |
+| ------- | ------- |
+| [![Medal design for Bike Bus medals](../assets/bikebus-logo/bikebus-logo-medal-256.png)](bikebus-logo-medal.md) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal.svg) &bull; |
+  | [![ 3E5062](../assets/bikebus-logo/bikebus-logo-medal-3E5062-256.png)](bikebus-logo-medal.md#3E5062) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal-3E5062.svg) &bull; |
+  | [![ 81CA9F](../assets/bikebus-logo/bikebus-logo-medal-81CA9F-256.png)](bikebus-logo-medal.md#81CA9F) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal-81CA9F.svg) &bull; |
+  | [![ 623E62](../assets/bikebus-logo/bikebus-logo-medal-623E62-256.png)](bikebus-logo-medal.md#623E62) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal-623E62.svg) &bull; |
+  | [![ 3E623E](../assets/bikebus-logo/bikebus-logo-medal-3E623E-256.png)](bikebus-logo-medal.md#3E623E) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal-3E623E.svg) &bull; |
+  | [![ 8187CA](../assets/bikebus-logo/bikebus-logo-medal-8187CA-256.png)](bikebus-logo-medal.md#8187CA) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal-8187CA.svg) &bull; |
+  | [![ CA81AC](../assets/bikebus-logo/bikebus-logo-medal-CA81AC-256.png)](bikebus-logo-medal.md#CA81AC) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal-CA81AC.svg) &bull; |
+  | [![ CAC381](../assets/bikebus-logo/bikebus-logo-medal-CAC381-256.png)](bikebus-logo-medal.md#CAC381) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal-CAC381.svg) &bull; |
+  | [![ 1C1C1C](../assets/bikebus-logo/bikebus-logo-medal-1C1C1C-256.png)](bikebus-logo-medal.md#1C1C1C) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal-1C1C1C.svg) &bull; |
+  | [![ E3E3E3](../assets/bikebus-logo/bikebus-logo-medal-E3E3E3-256.png)](bikebus-logo-medal.md#E3E3E3) | &bull; [Scalable SVG](../assets/bikebus-logo/bikebus-logo-medal-E3E3E3.svg) &bull; |
+
 ### Badge only
 Smaller sized logo where ledgibility is difficult (website favicons, for example), or if logo appears near to &quot;BikeBus&quot; text.
 

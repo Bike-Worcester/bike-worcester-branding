@@ -108,6 +108,14 @@ const config = {
           'Tileable ribbon design for use with end-of-year Bike Bus medals.',
       },
       {
+        file: 'medal',
+        name: 'Medal design for Bike Bus medals',
+        sizes: [],
+        multicolours: true,
+        scalable: true,
+        description: 'Medal design for end-of-year Bike Bus medals.',
+      },
+      {
         file: 'badge',
         name: 'Badge only',
         sizes: [16, 32, 64, 512],
