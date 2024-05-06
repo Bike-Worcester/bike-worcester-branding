@@ -1,5 +1,6 @@
 // Config file for generating assets and usage docs from vectors
 const config = {
+  /*
   'bike_worcester-logo': {
     // Sub-directory in src
     name: 'Bike Worcester logo', // Human readable name
@@ -190,6 +191,7 @@ const config = {
       },
     ],
   },
+      */
   'critical_mass-logo': {
     name: 'Critical Mass logo',
     thumbnail: 'full',
