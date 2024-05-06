@@ -36,6 +36,12 @@ brew install inkscape
 
 If you're on Windows, you can download the installer from the [Inkscape website](https://inkscape.org/).
 
+Set the path to the Inkscape binary in `.env`:
+
+```
+INKSCAPE_PATH=/path/to/inkscape
+```
+
 ## Building
 
 To generate images from the `src` vector files:
