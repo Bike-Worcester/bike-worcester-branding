@@ -117,21 +117,20 @@ const convert = async ({
       );
       const str = await svgToString(src);
       // Optimise svg then change all occurances of black to each colour and save
-      const conversions = {
-        ...colours,
-      };
-      await Object.keys(conversions).reduce(
+      await Object.keys(colours).reduce(
         (promise, colour) =>
           promise.then(async () => {
             const fg = colour;
-            const bg = conversions[colour];
+            const bg = colours[colour];
             const outPath = `${dir}-${file}-${mono ? 'mono-' : ''}${fg}`;
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
             await fs.writeFile(
               dest,
               str
                 .replaceAll(/#000000/gi, `#${fg}`)
-                .replaceAll(/#ffffff/gi, `#${bg}`),
+                .replaceAll(/#ffffff/gi, `#${bg}`)
+                .replaceAll(/#000/gi, `#${fg}`)
+                .replaceAll(/#fff/gi, `#${bg}`),
             );
             log(dest);
             await sizes.reduce(

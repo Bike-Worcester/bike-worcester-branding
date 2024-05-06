@@ -1,6 +1,5 @@
 // Config file for generating assets and usage docs from vectors
 const config = {
-  /*
   'bike_worcester-logo': {
     // Sub-directory in src
     name: 'Bike Worcester logo', // Human readable name
@@ -191,7 +190,6 @@ const config = {
       },
     ],
   },
-      */
   'critical_mass-logo': {
     name: 'Critical Mass logo',
     thumbnail: 'full',
@@ -213,12 +211,22 @@ const config = {
         multicolours: true,
       },
       {
+        file: 'sticker-2col',
+        name: 'Sticker in two colours',
+        sizes: [512, 1024, 2048],
+        description:
+          'Two colour sticker design for use on coloured backgrounds.',
+        scalable: true,
+        multicolours: true,
+      },
+      {
         file: 'sticker-mono',
         name: 'Sticker in monochrome',
         sizes: [512, 1024, 2048],
         description:
           'Monochrome sticker design for use on coloured backgrounds.',
         scalable: true,
+        multicolours: true,
       },
       {
         file: 'titles-black',
@@ -254,60 +262,26 @@ const config = {
       },
     ],
   },
-  /*
   'kidical_mass-logo': {
     name: 'Kidical Mass logo',
     thumbnail: 'badge',
     variants: [
       {
-        file: 'full',
-        name: 'Badge and text',
+        file: 'sticker',
+        name: 'Sticker using various colour combinations',
         sizes: [512, 1024, 2048],
         scalable: true,
-        description: 'Full logo for general use, space permitting.',
-        mono: true,
-      },
-      {
-        file: 'text',
-        name: 'Text only',
-        sizes: [512, 1024, 2048],
-        scalable: true,
-        description:
-          'Text only logo for use where space is limited or for website header bars.',
-        mono: true,
-      },
-      {
-        file: 'badge',
-        name: 'Badge only',
-        sizes: [16, 32, 64, 512],
-        description:
-          'Smaller sized logo where ledgibility is difficult (website favicons, for example), or if logo appears near to "Kidical Mass" text.',
-        scalable: true,
-        mono: true,
-      },
-      {
-        file: 'titles-black',
-        name: 'Titles on black',
-        sizes: [1920, 3840],
-        description: 'Lighter colour logo on black for 16:9 video titles.',
-      },
-      {
-        file: 'titles-white',
-        name: 'Titles on white',
-        sizes: [1920, 3840],
-        description: 'Darker colour logo on white for 16:9 video titles.',
+        multicolours: true,
       },
     ],
     colours: {
       // Keys are the colours used in, and complimentary to, the logo (in order of priority, without # prefix)
       // Values are the background colours to contrast the key colour
-      '3E5062': 'E3E3E3', // logo base
-      '81CA9F': '1C1C1C', // logo fore
-      '623E62': 'E3E3E3', // colour 1 base
-      '3E623E': 'E3E3E3', // colour 3 base
-      '8187CA': '1C1C1C', // colour 1 fore
-      CA81AC: '1C1C1C', // colour 2 fore
-      CAC381: '1C1C1C', // colour 3 fore
+      CA81AC: '623E62', // logo base
+      CAC381: '623E62', // logo fore
+      '81CA9f': '3E5062', // colour 1 base
+      '000000': '8187CA',
+      FFFFFF: '3E5062', // colour 1 fore
     },
     typography: [
       {
@@ -317,7 +291,6 @@ const config = {
       },
     ],
   },
-  */
 };
 
 Object.keys(config).forEach((dir) => {
