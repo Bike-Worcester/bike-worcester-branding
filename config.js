@@ -264,7 +264,7 @@ const config = {
   },
   'kidical_mass-logo': {
     name: 'Kidical Mass logo',
-    thumbnail: 'badge',
+    thumbnail: 'sticker',
     variants: [
       {
         file: 'sticker',
