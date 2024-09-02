@@ -17,16 +17,20 @@
 - [Colours](#colours)
 - [Typography](#typography)
 
-### Default sticker [⬆️](#table-of-contents)
+### Default sticker
 The default sticker design in Bike Worcester colours
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
 | [![Default sticker](../assets/critical_mass-logo/critical_mass-logo-full-256.png)](critical_mass-logo-full.md) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-full-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-full-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-full-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-full.svg) &bull; |
 
 [⬆️ Back to top](#table-of-contents)
-### Sticker in various colours [⬆️](#table-of-contents)
+### Sticker in various colours
 Various colour options for the sticker design, for use on the standard BW background.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
@@ -42,8 +46,10 @@ Various colour options for the sticker design, for use on the standard BW backgr
   | [![ FFFFFF](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF-256.png)](critical_mass-logo-sticker.md#FFFFFF) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF.svg) &bull; |
 
 [⬆️ Back to top](#table-of-contents)
-### Sticker in two colours [⬆️](#table-of-contents)
+### Sticker in two colours
 Two colour sticker design for use on coloured backgrounds.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
@@ -59,8 +65,10 @@ Two colour sticker design for use on coloured backgrounds.
   | [![ FFFFFF](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF-256.png)](critical_mass-logo-sticker-2col.md#FFFFFF) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF.svg) &bull; |
 
 [⬆️ Back to top](#table-of-contents)
-### Sticker in monochrome [⬆️](#table-of-contents)
+### Sticker in monochrome
 Monochrome sticker design for use on coloured backgrounds.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
@@ -76,16 +84,20 @@ Monochrome sticker design for use on coloured backgrounds.
   | [![ FFFFFF](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF-256.png)](critical_mass-logo-sticker-mono.md#FFFFFF) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF.svg) &bull; |
 
 [⬆️ Back to top](#table-of-contents)
-### Titles on black [⬆️](#table-of-contents)
+### Titles on black
 Lighter colour logo on black for 16:9 video titles.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
 | [![Titles on black](../assets/critical_mass-logo/critical_mass-logo-titles-black-256.png)](critical_mass-logo-titles-black.md) | &bull; [1920w](../assets/critical_mass-logo/critical_mass-logo-titles-black-1920.png) &bull; [3840w](../assets/critical_mass-logo/critical_mass-logo-titles-black-3840.png)  &bull; |
 
 [⬆️ Back to top](#table-of-contents)
-### Titles on white [⬆️](#table-of-contents)
+### Titles on white
 Darker colour logo on white for 16:9 video titles.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |

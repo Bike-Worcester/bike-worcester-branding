@@ -12,8 +12,10 @@
 - [Colours](#colours)
 - [Typography](#typography)
 
-### Sticker using various colour combinations [⬆️](#table-of-contents)
+### Sticker using various colour combinations
 
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
