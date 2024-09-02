@@ -6,8 +6,16 @@
 
 ## Kidical Mass logo resources
 
+### Table of contents
+
+- [Sticker using various colour combinations](#)
+- [Colours](#colours)
+- [Typography](#typography)
+
 ### Sticker using various colour combinations
 
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
@@ -18,14 +26,19 @@
   | [![ 000000](../assets/kidical_mass-logo/kidical_mass-logo-sticker-000000-256.png)](kidical_mass-logo-sticker.md#000000) | &bull; [512w](../assets/kidical_mass-logo/kidical_mass-logo-sticker-000000-512.png) &bull; [1024w](../assets/kidical_mass-logo/kidical_mass-logo-sticker-000000-1024.png) &bull; [2048w](../assets/kidical_mass-logo/kidical_mass-logo-sticker-000000-2048.png) &bull; [Scalable SVG](../assets/kidical_mass-logo/kidical_mass-logo-sticker-000000.svg) &bull; |
   | [![ FFFFFF](../assets/kidical_mass-logo/kidical_mass-logo-sticker-FFFFFF-256.png)](kidical_mass-logo-sticker.md#FFFFFF) | &bull; [512w](../assets/kidical_mass-logo/kidical_mass-logo-sticker-FFFFFF-512.png) &bull; [1024w](../assets/kidical_mass-logo/kidical_mass-logo-sticker-FFFFFF-1024.png) &bull; [2048w](../assets/kidical_mass-logo/kidical_mass-logo-sticker-FFFFFF-2048.png) &bull; [Scalable SVG](../assets/kidical_mass-logo/kidical_mass-logo-sticker-FFFFFF.svg) &bull; |
 
+[⬆️ Back to top](#table-of-contents)
 
 ### Colours
+
+[⬆️ Back to top](#table-of-contents)
 
 | #CA81AC |  #CAC381 |  #81CA9f |  #000000 |  #FFFFFF | 
 | --- |  --- |  --- |  --- |  --- | 
 | [![#CA81AC swatch](../assets/kidical_mass-logo/swatch-CA81AC.png)]() |  [![#CAC381 swatch](../assets/kidical_mass-logo/swatch-CAC381.png)]() |  [![#81CA9f swatch](../assets/kidical_mass-logo/swatch-81CA9f.png)]() |  [![#000000 swatch](../assets/kidical_mass-logo/swatch-000000.png)]() |  [![#FFFFFF swatch](../assets/kidical_mass-logo/swatch-FFFFFF.png)]() | 
 
 ### Typography
+
+[⬆️ Back to top](#table-of-contents)
 
 | Use | Name | Link |
 | --- | --- | --- |

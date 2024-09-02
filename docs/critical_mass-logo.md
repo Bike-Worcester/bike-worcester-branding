@@ -6,15 +6,31 @@
 
 ## Critical Mass logo resources
 
+### Table of contents
+
+- [Default sticker](#)
+- [Sticker in various colours](#)
+- [Sticker in two colours](#)
+- [Sticker in monochrome](#)
+- [Titles on black](#)
+- [Titles on white](#)
+- [Colours](#colours)
+- [Typography](#typography)
+
 ### Default sticker
 The default sticker design in Bike Worcester colours
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
 | [![Default sticker](../assets/critical_mass-logo/critical_mass-logo-full-256.png)](critical_mass-logo-full.md) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-full-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-full-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-full-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-full.svg) &bull; |
 
+[⬆️ Back to top](#table-of-contents)
 ### Sticker in various colours
 Various colour options for the sticker design, for use on the standard BW background.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
@@ -29,8 +45,11 @@ Various colour options for the sticker design, for use on the standard BW backgr
   | [![ 1C1C1C](../assets/critical_mass-logo/critical_mass-logo-sticker-1C1C1C-256.png)](critical_mass-logo-sticker.md#1C1C1C) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-sticker-1C1C1C-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-sticker-1C1C1C-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-sticker-1C1C1C-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-sticker-1C1C1C.svg) &bull; |
   | [![ FFFFFF](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF-256.png)](critical_mass-logo-sticker.md#FFFFFF) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-sticker-FFFFFF.svg) &bull; |
 
+[⬆️ Back to top](#table-of-contents)
 ### Sticker in two colours
 Two colour sticker design for use on coloured backgrounds.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
@@ -45,8 +64,11 @@ Two colour sticker design for use on coloured backgrounds.
   | [![ 1C1C1C](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-1C1C1C-256.png)](critical_mass-logo-sticker-2col.md#1C1C1C) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-1C1C1C-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-1C1C1C-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-1C1C1C-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-1C1C1C.svg) &bull; |
   | [![ FFFFFF](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF-256.png)](critical_mass-logo-sticker-2col.md#FFFFFF) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-sticker-2col-FFFFFF.svg) &bull; |
 
+[⬆️ Back to top](#table-of-contents)
 ### Sticker in monochrome
 Monochrome sticker design for use on coloured backgrounds.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
@@ -61,28 +83,39 @@ Monochrome sticker design for use on coloured backgrounds.
   | [![ 1C1C1C](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-1C1C1C-256.png)](critical_mass-logo-sticker-mono.md#1C1C1C) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-1C1C1C-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-1C1C1C-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-1C1C1C-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-1C1C1C.svg) &bull; |
   | [![ FFFFFF](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF-256.png)](critical_mass-logo-sticker-mono.md#FFFFFF) | &bull; [512w](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF-512.png) &bull; [1024w](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF-1024.png) &bull; [2048w](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF-2048.png) &bull; [Scalable SVG](../assets/critical_mass-logo/critical_mass-logo-sticker-mono-FFFFFF.svg) &bull; |
 
+[⬆️ Back to top](#table-of-contents)
 ### Titles on black
 Lighter colour logo on black for 16:9 video titles.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
 | [![Titles on black](../assets/critical_mass-logo/critical_mass-logo-titles-black-256.png)](critical_mass-logo-titles-black.md) | &bull; [1920w](../assets/critical_mass-logo/critical_mass-logo-titles-black-1920.png) &bull; [3840w](../assets/critical_mass-logo/critical_mass-logo-titles-black-3840.png)  &bull; |
 
+[⬆️ Back to top](#table-of-contents)
 ### Titles on white
 Darker colour logo on white for 16:9 video titles.
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
 | [![Titles on white](../assets/critical_mass-logo/critical_mass-logo-titles-white-256.png)](critical_mass-logo-titles-white.md) | &bull; [1920w](../assets/critical_mass-logo/critical_mass-logo-titles-white-1920.png) &bull; [3840w](../assets/critical_mass-logo/critical_mass-logo-titles-white-3840.png)  &bull; |
 
+[⬆️ Back to top](#table-of-contents)
 
 ### Colours
+
+[⬆️ Back to top](#table-of-contents)
 
 | #3E5062 |  #81CA9F |  #623E62 |  #3E623E |  #8187CA |  #CA81AC |  #CAC381 |  #1C1C1C |  #FFFFFF | 
 | --- |  --- |  --- |  --- |  --- |  --- |  --- |  --- |  --- | 
 | [![#3E5062 swatch](../assets/critical_mass-logo/swatch-3E5062.png)]() |  [![#81CA9F swatch](../assets/critical_mass-logo/swatch-81CA9F.png)]() |  [![#623E62 swatch](../assets/critical_mass-logo/swatch-623E62.png)]() |  [![#3E623E swatch](../assets/critical_mass-logo/swatch-3E623E.png)]() |  [![#8187CA swatch](../assets/critical_mass-logo/swatch-8187CA.png)]() |  [![#CA81AC swatch](../assets/critical_mass-logo/swatch-CA81AC.png)]() |  [![#CAC381 swatch](../assets/critical_mass-logo/swatch-CAC381.png)]() |  [![#1C1C1C swatch](../assets/critical_mass-logo/swatch-1C1C1C.png)]() |  [![#FFFFFF swatch](../assets/critical_mass-logo/swatch-FFFFFF.png)]() | 
 
 ### Typography
+
+[⬆️ Back to top](#table-of-contents)
 
 | Use | Name | Link |
 | --- | --- | --- |
