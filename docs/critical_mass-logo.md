@@ -8,12 +8,12 @@
 
 ### Table of contents
 
-- [Default sticker](#)
-- [Sticker in various colours](#)
-- [Sticker in two colours](#)
-- [Sticker in monochrome](#)
-- [Titles on black](#)
-- [Titles on white](#)
+- [Default sticker](#default-sticker)
+- [Sticker in various colours](#sticker-in-various-colours)
+- [Sticker in two colours](#sticker-in-two-colours)
+- [Sticker in monochrome](#sticker-in-monochrome)
+- [Titles on black](#titles-on-black)
+- [Titles on white](#titles-on-white)
 - [Colours](#colours)
 - [Typography](#typography)
 

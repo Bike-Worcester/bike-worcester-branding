@@ -8,7 +8,7 @@
 
 ### Table of contents
 
-- [Sticker using various colour combinations](#)
+- [Sticker using various colour combinations](#sticker-using-various-colour-combinations)
 - [Colours](#colours)
 - [Typography](#typography)
 

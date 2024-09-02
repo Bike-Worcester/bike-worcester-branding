@@ -295,6 +295,9 @@ const config = {
 
 Object.keys(config).forEach((dir) => {
   config[dir].colourList = Object.keys(config[dir].colours);
+  config[dir].variants.forEach((variant) => {
+    variant.href = variant.name.toLowerCase().replace(/ /g, '-');
+  });
 });
 
 module.exports = config;

@@ -8,12 +8,12 @@
 
 ### Table of contents
 
-- [Square](#)
-- [Wide](#)
-- [Badge](#)
-- [Thumbnail](#)
-- [Titles on black](#)
-- [Titles on white](#)
+- [Square](#square)
+- [Wide](#wide)
+- [Badge](#badge)
+- [Thumbnail](#thumbnail)
+- [Titles on black](#titles-on-black)
+- [Titles on white](#titles-on-white)
 - [Colours](#colours)
 - [Typography](#typography)
 
