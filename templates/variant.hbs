@@ -6,9 +6,19 @@
 
 ## {{name}} resources
 
+### Table of contents
+
+{{#each variants}}
+- [{{name}}](#{{href}})
+{{/each}}
+- [Colours](#colours)
+{{#with typography}}- [Typography](#typography){{/with}}
+
 {{#each variants}}
 ### {{name}}
 {{description}}
+
+[⬆️ Back to top](#table-of-contents)
 
 | Preview | Formats |
 | ------- | ------- |
@@ -24,9 +34,12 @@
 {{/each}}
 {{/with}}
 
+[⬆️ Back to top](#table-of-contents)
 {{/each}}
 
 ### Colours
+
+[⬆️ Back to top](#table-of-contents)
 
 |{{#each colours}} #{{this}} | {{/each}}
 |{{#each colours}} --- | {{/each}}
@@ -34,6 +47,8 @@
 
 {{#with typography}}
 ### Typography
+
+[⬆️ Back to top](#table-of-contents)
 
 | Use | Name | Link |
 | --- | --- | --- |

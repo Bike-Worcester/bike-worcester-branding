@@ -1,9 +1,12 @@
-import Inkscape from 'inkscape';
 import colors from 'colors';
 import { optimize } from 'svgo';
-import { promises as fs, createReadStream, createWriteStream } from 'fs';
+import { promises as fs } from 'fs';
 import config from '../config.js';
 import path from 'path';
+import { exec } from 'child_process';
+import { promisify } from 'util';
+
+const run = promisify(exec);
 
 const baseDir = new URL('..', import.meta.url).pathname;
 let total = 0;
@@ -13,18 +16,16 @@ const log = (dest) => {
   total++;
 };
 
+const inkscapeConvert = async (src, dest, width) => {
+  // Run shell command rather than use Inkscape library
+  const inkscape = process.env.INKSCAPE_PATH || 'inkscape';
+  const command = `${inkscape} --export-width=${width} --export-png=${dest} ${src}`;
+  await run(command);
+  log(dest);
+};
+
 const svgToPng = async (src, dest, width) => {
-  const inkscape = new Inkscape([`--export-width=${width}`], {
-    outputFormat: 'png',
-    inputFormat: 'svg',
-  });
-  const stream = createReadStream(src)
-    .pipe(inkscape)
-    .pipe(createWriteStream(dest));
-  await new Promise((resolve, reject) => {
-    stream.on('finish', resolve);
-    stream.on('error', reject);
-  });
+  await inkscapeConvert(src, dest, width);
   log(dest);
 };
 
@@ -116,6 +117,7 @@ const convert = async ({
       );
       const str = await svgToString(src);
       // Optimise svg then change all occurances of black to each colour and save
+
       const conversions = {
         ...colours,
       };
@@ -126,6 +128,7 @@ const convert = async ({
             const fg = colour;
             const bg = conversions[colour];
             console.log(bg)
+
             const outPath = `${dir}-${file}-${mono ? 'mono-' : ''}${fg}`;
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
             await fs.writeFile(
@@ -135,7 +138,6 @@ const convert = async ({
                 .replaceAll(/#000000/gi, `#${fg}`)
                 .replaceAll(/#ffffff/gi, `#${bg}`)
                 .replaceAll(/#fff/gi, `#${bg}`),
-
             );
             log(dest);
             await sizes.reduce(
@@ -170,9 +172,9 @@ await Promise.all(
     await fs.mkdir(path.resolve(baseDir, 'assets', dir), {
       recursive: true,
     });
-    await config[dir].variants.reduce(
-      (p, { file, sizes: _sizes, scalable, multicolours, mono, copy }) =>
-        p.then(async () => {
+    await Promise.all(
+      config[dir].variants.map(
+        async ({ file, sizes: _sizes, scalable, multicolours, mono, copy }) => {
           const sizes = [..._sizes, 128, 256];
           await sizes
             .filter((size, i, arr) => arr.indexOf(size) === i)
@@ -191,8 +193,8 @@ await Promise.all(
             sizes,
             copy,
           });
-        }),
-      Promise.resolve(),
+        },
+      ),
     );
     await Object.keys(config[dir].colours).reduce(
       (promise, colour) =>

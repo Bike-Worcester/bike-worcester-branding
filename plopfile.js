@@ -8,6 +8,7 @@ module.exports = function (plop) {
       const [actions, index] = Object.keys(config).reduce(
         ([arr, index], dir) => {
           const name = config[dir].name;
+          const href = name.toLowerCase().replace(/ /g, '-');
           const thumbnail = config[dir].thumbnail;
           const typography = config[dir].typography;
           arr.push(

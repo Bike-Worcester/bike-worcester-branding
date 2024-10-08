@@ -91,6 +91,31 @@ const config = {
         mono: true,
       },
       {
+        file: 'tall',
+        name: 'Tall text only',
+        sizes: [512, 1024, 2048],
+        multicolours: true,
+        scalable: true,
+        description: 'Text only logo for narrow spaces.',
+      },
+      {
+        file: 'ribbon',
+        name: 'Ribbon for Bike Bus medals',
+        sizes: [],
+        multicolours: true,
+        scalable: true,
+        description:
+          'Tileable ribbon design for use with end-of-year Bike Bus medals.',
+      },
+      {
+        file: 'medal',
+        name: 'Medal design for Bike Bus medals',
+        sizes: [],
+        multicolours: true,
+        scalable: true,
+        description: 'Medal design for end-of-year Bike Bus medals.',
+      },
+      {
         file: 'badge',
         name: 'Badge only',
         sizes: [16, 32, 64, 512],
@@ -165,10 +190,114 @@ const config = {
       },
     ],
   },
+  'critical_mass-logo': {
+    name: 'Critical Mass logo',
+    thumbnail: 'full',
+    variants: [
+      {
+        file: 'full',
+        name: 'Default sticker',
+        sizes: [512, 1024, 2048],
+        scalable: true,
+        description: 'The default sticker design in Bike Worcester colours',
+      },
+      {
+        file: 'sticker',
+        name: 'Sticker in various colours',
+        sizes: [512, 1024, 2048],
+        scalable: true,
+        description:
+          'Various colour options for the sticker design, for use on the standard BW background.',
+        multicolours: true,
+      },
+      {
+        file: 'sticker-2col',
+        name: 'Sticker in two colours',
+        sizes: [512, 1024, 2048],
+        description:
+          'Two colour sticker design for use on coloured backgrounds.',
+        scalable: true,
+        multicolours: true,
+      },
+      {
+        file: 'sticker-mono',
+        name: 'Sticker in monochrome',
+        sizes: [512, 1024, 2048],
+        description:
+          'Monochrome sticker design for use on coloured backgrounds.',
+        scalable: true,
+        multicolours: true,
+      },
+      {
+        file: 'titles-black',
+        name: 'Titles on black',
+        sizes: [1920, 3840],
+        description: 'Lighter colour logo on black for 16:9 video titles.',
+      },
+      {
+        file: 'titles-white',
+        name: 'Titles on white',
+        sizes: [1920, 3840],
+        description: 'Darker colour logo on white for 16:9 video titles.',
+      },
+    ],
+    colours: {
+      // Keys are the colours used in, and complimentary to, the logo (in order of priority, without # prefix)
+      // Values are the background colours to contrast the key colour
+      '3E5062': 'FFFFFF', // logo base
+      '81CA9F': '1C1C1C', // logo fore
+      '623E62': 'FFFFFF', // colour 1 base
+      '3E623E': 'FFFFFF', // colour 3 base
+      '8187CA': '1C1C1C', // colour 1 fore
+      CA81AC: '1C1C1C', // colour 2 fore
+      CAC381: '1C1C1C', // colour 3 fore
+      '1C1C1C': 'FFFFFF',
+      FFFFFF: '1C1C1C',
+    },
+    typography: [
+      {
+        name: 'Logo',
+        font: 'Jost Extra Bold',
+        link: 'https://fonts.google.com/specimen/Jost',
+      },
+    ],
+  },
+  'kidical_mass-logo': {
+    name: 'Kidical Mass logo',
+    thumbnail: 'sticker',
+    variants: [
+      {
+        file: 'sticker',
+        name: 'Sticker using various colour combinations',
+        sizes: [512, 1024, 2048],
+        scalable: true,
+        multicolours: true,
+      },
+    ],
+    colours: {
+      // Keys are the colours used in, and complimentary to, the logo (in order of priority, without # prefix)
+      // Values are the background colours to contrast the key colour
+      CA81AC: '623E62', // logo base
+      CAC381: '623E62', // logo fore
+      '81CA9f': '3E5062', // colour 1 base
+      '000000': '8187CA',
+      FFFFFF: '3E5062', // colour 1 fore
+    },
+    typography: [
+      {
+        name: 'Logo',
+        font: 'Jost Extra Bold',
+        link: 'https://fonts.google.com/specimen/Jost',
+      },
+    ],
+  },
 };
 
 Object.keys(config).forEach((dir) => {
   config[dir].colourList = Object.keys(config[dir].colours);
+  config[dir].variants.forEach((variant) => {
+    variant.href = variant.name.toLowerCase().replace(/ /g, '-');
+  });
 });
 
 module.exports = config;
