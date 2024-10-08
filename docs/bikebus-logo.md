@@ -20,6 +20,7 @@
 - [Flag](#flag)
 - [Banner](#banner)
 - [Stop Sign](#stop-sign)
+- [Join Us Circular](#join-us-circular)
 - [Colours](#colours)
 - [Typography](#typography)
 
@@ -231,6 +232,25 @@ Stop signs design
   | [![ CAC381](../assets/bikebus-logo/bikebus-logo-stop-sign-CAC381-256.png)](bikebus-logo-stop-sign.md#CAC381) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-stop-sign-CAC381-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-stop-sign-CAC381-3840.png)  &bull; |
   | [![ 1C1C1C](../assets/bikebus-logo/bikebus-logo-stop-sign-1C1C1C-256.png)](bikebus-logo-stop-sign.md#1C1C1C) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-stop-sign-1C1C1C-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-stop-sign-1C1C1C-3840.png)  &bull; |
   | [![ E3E3E3](../assets/bikebus-logo/bikebus-logo-stop-sign-E3E3E3-256.png)](bikebus-logo-stop-sign.md#E3E3E3) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-stop-sign-E3E3E3-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-stop-sign-E3E3E3-3840.png)  &bull; |
+
+[⬆️ Back to top](#table-of-contents)
+### Join Us Circular
+Circular Join Us design for Bike Bus promotion.
+
+[⬆️ Back to top](#table-of-contents)
+
+| Preview | Formats |
+| ------- | ------- |
+| [![Join Us Circular](../assets/bikebus-logo/bikebus-logo-join-us-circular-256.png)](bikebus-logo-join-us-circular.md) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-3840.png)  &bull; |
+  | [![ 3E5062](../assets/bikebus-logo/bikebus-logo-join-us-circular-3E5062-256.png)](bikebus-logo-join-us-circular.md#3E5062) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-3E5062-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-3E5062-3840.png)  &bull; |
+  | [![ 81CA9F](../assets/bikebus-logo/bikebus-logo-join-us-circular-81CA9F-256.png)](bikebus-logo-join-us-circular.md#81CA9F) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-81CA9F-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-81CA9F-3840.png)  &bull; |
+  | [![ 623E62](../assets/bikebus-logo/bikebus-logo-join-us-circular-623E62-256.png)](bikebus-logo-join-us-circular.md#623E62) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-623E62-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-623E62-3840.png)  &bull; |
+  | [![ 3E623E](../assets/bikebus-logo/bikebus-logo-join-us-circular-3E623E-256.png)](bikebus-logo-join-us-circular.md#3E623E) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-3E623E-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-3E623E-3840.png)  &bull; |
+  | [![ 8187CA](../assets/bikebus-logo/bikebus-logo-join-us-circular-8187CA-256.png)](bikebus-logo-join-us-circular.md#8187CA) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-8187CA-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-8187CA-3840.png)  &bull; |
+  | [![ CA81AC](../assets/bikebus-logo/bikebus-logo-join-us-circular-CA81AC-256.png)](bikebus-logo-join-us-circular.md#CA81AC) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-CA81AC-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-CA81AC-3840.png)  &bull; |
+  | [![ CAC381](../assets/bikebus-logo/bikebus-logo-join-us-circular-CAC381-256.png)](bikebus-logo-join-us-circular.md#CAC381) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-CAC381-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-CAC381-3840.png)  &bull; |
+  | [![ 1C1C1C](../assets/bikebus-logo/bikebus-logo-join-us-circular-1C1C1C-256.png)](bikebus-logo-join-us-circular.md#1C1C1C) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-1C1C1C-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-1C1C1C-3840.png)  &bull; |
+  | [![ E3E3E3](../assets/bikebus-logo/bikebus-logo-join-us-circular-E3E3E3-256.png)](bikebus-logo-join-us-circular.md#E3E3E3) | &bull; [1920w](../assets/bikebus-logo/bikebus-logo-join-us-circular-E3E3E3-1920.png) &bull; [3840w](../assets/bikebus-logo/bikebus-logo-join-us-circular-E3E3E3-3840.png)  &bull; |
 
 [⬆️ Back to top](#table-of-contents)
 

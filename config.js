@@ -168,6 +168,13 @@ const config = {
         description: 'Stop signs design',
         multicolours: true,
       },
+      {
+        file: 'join-us-circular',
+        name: 'Join Us Circular',
+        sizes: [1920, 3840],
+        description: 'Circular Join Us design for Bike Bus promotion.',
+        multicolours: true,
+      },
     ],
     colours: {
       // Keys are the colours used in, and complimentary to, the logo (in order of priority, without # prefix)

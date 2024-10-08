@@ -121,13 +121,11 @@ const convert = async ({
       const conversions = {
         ...colours,
       };
-      console.log(conversions)
       await Object.keys(conversions).reduce(
         (promise, colour) =>
           promise.then(async () => {
             const fg = colour;
             const bg = conversions[colour];
-            console.log(bg)
 
             const outPath = `${dir}-${file}-${mono ? 'mono-' : ''}${fg}`;
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
