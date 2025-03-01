@@ -121,25 +121,25 @@ const convert = async ({
       const conversions = {
         ...colours,
       };
-      console.log(conversions)
+      console.log(conversions);
       await Object.keys(conversions).reduce(
         (promise, colour) =>
           promise.then(async () => {
             const fg = colour;
             const bg = conversions[colour];
-            console.log(bg)
+            console.log(bg);
 
             const outPath = `${dir}-${file}-${mono ? 'mono-' : ''}${fg}`;
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
             await fs.writeFile(
               dest,
               str
-                .replaceAll(/#000/gi, `#${fg}`)
-                .replaceAll(/#000000/gi, `#${fg}`)
-                .replaceAll(/#ffffff/gi, `#${bg}`)
-                .replaceAll(/#fff/gi, `#${bg}`),
+                .replace(/#000\b/gi, `#${fg}`)
+                .replace(/#000000\b/gi, `#${fg}`)
+                .replace(/#ffffff\b/gi, `#${bg}`)
+                .replace(/#fff\b/gi, `#${bg}`),
             );
-            log(dest);
+            //log(dest);
             await sizes.reduce(
               (_promise, size) =>
                 _promise.then(async () => {
@@ -183,6 +183,7 @@ await Promise.all(
               (_p, size) => _p.then(() => convert({ dir, file, size })),
               Promise.resolve(),
             );
+          console.log(config[dir].colours);
           await convert({
             dir,
             file,
