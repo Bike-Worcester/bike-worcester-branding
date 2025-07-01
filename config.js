@@ -251,15 +251,15 @@ const config = {
     colours: {
       // Keys are the colours used in, and complimentary to, the logo (in order of priority, without # prefix)
       // Values are the background colours to contrast the key colour
-      '3E5062': 'FFFFFF', // logo base
+      '3E5062': 'FFFFFE', // logo base
       '81CA9F': '1C1C1C', // logo fore
-      '623E62': 'FFFFFF', // colour 1 base
-      '3E623E': 'FFFFFF', // colour 3 base
+      '623E62': 'FFFFFE', // colour 1 base
+      '3E623E': 'FFFFFE', // colour 3 base
       '8187CA': '1C1C1C', // colour 1 fore
       CA81AC: '1C1C1C', // colour 2 fore
       CAC381: '1C1C1C', // colour 3 fore
-      '1C1C1C': 'FFFFFF',
-      FFFFFF: '1C1C1C',
+      '1C1C1C': 'FFFFFE',
+      FFFFFE: '1C1C1C',
     },
     typography: [
       {
@@ -287,8 +287,8 @@ const config = {
       CA81AC: '623E62', // logo base
       CAC381: '623E62', // logo fore
       '81CA9f': '3E5062', // colour 1 base
-      '000000': '8187CA',
-      FFFFFF: '3E5062', // colour 1 fore
+      '000001': '8187CA',
+      FFFFFE: '3E5062', // colour 1 fore
     },
     typography: [
       {
