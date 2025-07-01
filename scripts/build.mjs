@@ -29,12 +29,28 @@ const svgToPng = async (src, dest, width) => {
   log(dest);
 };
 
+const makeNoFillBlack = {
+  name: 'makeNoFillBlack',
+  description: 'Change all empty fill attribute values to black.',
+  fn: () => {
+    return {
+      element: {
+        enter: (node, parentNode) => {
+          if (node.attributes.fill) return;
+          node.attributes.fill = '#000000';
+        },
+      },
+    };
+  },
+};
+
 const svgToString = async (src) => {
   const svg = await fs.readFile(src, 'utf-8');
   const { data } = optimize(svg, {
     path: src,
     multipass: true,
     plugins: [
+      'convertStyleToAttrs',
       {
         name: 'preset-default',
         params: {
@@ -57,6 +73,7 @@ const svgToString = async (src) => {
         name: 'removeDimensions',
         active: true,
       },
+      makeNoFillBlack,
     ],
   });
   return data;
@@ -117,7 +134,6 @@ const convert = async ({
       );
       const str = await svgToString(src);
       // Optimise svg then change all occurances of black to each colour and save
-
       const conversions = {
         ...colours,
       };
@@ -131,11 +147,19 @@ const convert = async ({
             let dest = path.resolve(baseDir, 'assets', dir, `${outPath}.svg`);
             await fs.writeFile(
               dest,
-              str
-                .replaceAll(/#000/gi, `#${fg}`)
-                .replaceAll(/#000000/gi, `#${fg}`)
-                .replaceAll(/#ffffff/gi, `#${bg}`)
-                .replaceAll(/#fff/gi, `#${bg}`),
+              [
+                [/"#000"/gi, fg],
+                [/"#000000"/gi, fg],
+                [/"black"/gi, fg],
+                [/"rgb[a]*\(0,[\s]*0,[\s]*0[^)]*\)"/gi, fg],
+                [/"#ffffff"/gi, bg],
+                [/"#fff"/gi, bg],
+                [/"white"/gi, bg],
+                [/"rgb[a]*\(255,[\s]*255,[\s]*255[^)]*\)"/gi, fg],
+              ].reduce((str, [regex, replacement]) => {
+                const newStr = str.replace(regex, `"#${replacement}"`);
+                return newStr;
+              }, str),
             );
             log(dest);
             await sizes.reduce(
@@ -161,47 +185,69 @@ const convert = async ({
 // Delete assets directory and its contents
 console.log();
 console.log(colors.yellow('Deleting assets directory...'));
-await fs.rm(path.resolve(baseDir, 'assets'), { recursive: true });
+try {
+  await fs.rm(path.resolve(baseDir, 'assets'), { recursive: true });
+} catch (err) {}
 
+// Get arguments
+const args = process.argv.slice(2);
+// If one argument, match it to a key in config
+const arg = args[0];
+if (arg) {
+  if (!Object.keys(config).some((key) => key.startsWith(arg))) {
+    console.log(colors.red(`No config found for ${arg}`));
+    process.exit(1);
+  }
+}
 // Creating assets
+//
 console.log(colors.yellow('Creating assets...'));
 await Promise.all(
-  Object.keys(config).map(async (dir) => {
-    await fs.mkdir(path.resolve(baseDir, 'assets', dir), {
-      recursive: true,
-    });
-    await Promise.all(
-      config[dir].variants.map(
-        async ({ file, sizes: _sizes, scalable, multicolours, mono, copy }) => {
-          const sizes = [..._sizes, 128, 256];
-          await sizes
-            .filter((size, i, arr) => arr.indexOf(size) === i)
-            .sort()
-            .reduce(
-              (_p, size) => _p.then(() => convert({ dir, file, size })),
-              Promise.resolve(),
-            );
-          await convert({
-            dir,
+  Object.keys(config)
+    .filter((key) => !arg || key.startsWith(arg))
+    .map(async (dir) => {
+      await fs.mkdir(path.resolve(baseDir, 'assets', dir), {
+        recursive: true,
+      });
+      await Promise.all(
+        config[dir].variants.map(
+          async ({
             file,
+            sizes: _sizes,
             scalable,
-            mono,
             multicolours,
-            colours: config[dir].colours,
-            sizes,
+            mono,
             copy,
-          });
-        },
-      ),
-    );
-    await Object.keys(config[dir].colours).reduce(
-      (promise, colour) =>
-        promise.then(async () => {
-          await generateSwatch(dir, colour);
-        }),
-      Promise.resolve(),
-    );
-  }),
+          }) => {
+            const sizes = [..._sizes, 128, 256];
+            await sizes
+              .filter((size, i, arr) => arr.indexOf(size) === i)
+              .sort()
+              .reduce(
+                (_p, size) => _p.then(() => convert({ dir, file, size })),
+                Promise.resolve(),
+              );
+            await convert({
+              dir,
+              file,
+              scalable,
+              mono,
+              multicolours,
+              colours: config[dir].colours,
+              sizes,
+              copy,
+            });
+          },
+        ),
+      );
+      await Object.keys(config[dir].colours).reduce(
+        (promise, colour) =>
+          promise.then(async () => {
+            await generateSwatch(dir, colour);
+          }),
+        Promise.resolve(),
+      );
+    }),
 );
 
 console.log();
